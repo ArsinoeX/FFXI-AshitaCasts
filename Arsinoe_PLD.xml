@@ -1,0 +1,619 @@
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>True</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="Idle">
+			<main>Macuahuitl +1</main>
+			<!--main>Joyeuse</main-->
+			<sub>Koenig Shield</sub>
+			<head>Valor Coronet</head>
+			<body>Homam Corazza</body>
+			<body>Valor Surcoat</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Glt. Leggings +1</feet>
+			<neck>Shield Torque</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Bomb Queen Ring</ring2>
+			<back>Valor Cape</back>
+		    <range>displaced</range>
+			<ammo>Fenrir's Stone</ammo>
+		</set>
+		
+		<!--Show off how fancy you look!-->
+		<set name="Town" baseset="Idle">
+			<main>Joyeuse</main>
+			<head>Opo-opo Crown</head>
+		</set>
+		
+		<!--Default TP Set-->
+		<!--Toggle: /set Base-->
+		<set name="TP-Base">
+			<head>Walahra Turban</head>
+			<body>Valor Surcoat</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>
+			<neck>Shield Torque</neck>
+			<waist>Swift Belt</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Bloodbead Ring</ring2>
+			<back>Valor Cape</back>
+		    <range>displaced</range>
+			<ammo>Bibiki Seashell</ammo>
+		</set>
+		
+		<!--TP Set - High Accuracy-->
+		<!--Toggle: /set Acc-->
+		<set name="TP-Acc">
+			<head>Optical Hat</head>
+			<body>Homam Corazza</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Swift Belt</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Fowling Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+			<back>Valor Cape</back>
+		    <range>displaced</range>
+			<ammo>Bibiki Seashell</ammo>
+		</set>
+		
+		<!--TP Set - Damage-oriented-->
+		<!--Toggle: /set DPS-->
+		<set name="TP-DPS">
+			<head>Walahra Turban</head>
+			<body>Askar Korazin</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Swift Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+			<back>Forager's Mantle</back>
+		    <range>displaced</range>
+			<ammo>Bibiki Seashell</ammo>
+		</set>
+		
+		<!--Default WS Set-->
+	    <set name="WS">
+			<head>Askar Zucchetto</head>
+			<body>Hecatomb Harness</body>
+			<hands>Hct. Mittens +1</hands>
+			<legs>Valor Breeches</legs>
+			<feet>Hct. Leggings</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Fowling Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Flame Ring</ring2>
+			<back>Forager's Mantle</back>
+		    <range>displaced</range>
+			<ammo>Mille. Sachet</ammo>
+		</set>
+		
+		<!-- WS Set - Multi-hit (Vorpal/Swift Blade)-->
+		<set name="WS-Multi">
+			<head>Askar Zucchetto</head>
+			<body>Haubergeon +1</body>
+			<hands>Hct. Mittens +1</hands>
+			<legs>Valor Breeches</legs>
+			<feet>Hct. Leggings</feet>
+			<neck>Soil Gorget</neck>
+			<waist>Potent Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Fowling Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Flame Ring</ring2>
+			<back>Forager's Mantle</back>
+		    <range>displaced</range>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- WS Set - Spirits Within (Stack HP)-->
+		<set name="WS-SW">
+			<head>Koenig Schaller</head>
+			<body>Homam Corazza</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Marine F Boots</feet>
+			<neck>Shield Torque</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Crimson Earring</ear1>
+			<ear2>Crimson Earring</ear2>
+			<ring1>Bloodbead Ring</ring1>
+			<ring2>Bomb Queen Ring</ring2>
+			<back>Valor Cape</back>
+		    <range>displaced</range>
+			<ammo>Fenrir's Stone</ammo>
+		</set>
+		
+		<!--Stack Enmity+-->
+		<set name="Enmity">
+			<head>Valor Coronet</head>
+			<body>Valor Surcoat</body>
+			<hands>Askar Manopolas</hands>
+			<legs>Valor Breeches</legs>
+			<feet>Askar Gambieras</feet>
+			<neck>Harmonia's Torque</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Crimson Earring</ear2>
+			<ring1>Hercules' Ring</ring1>
+			<ring2>Bloodbead Ring</ring2>
+			<back>Valor Cape</back>
+		    <range>displaced</range>
+			<ammo>Bibiki Seashell</ammo>
+		</set>
+		
+		<!--Chivalry Set - Potency based off current TP & modified by MND-->
+		<set name="Chivalry" baseset="Enmity">
+			<feet>Valor Leggings</feet>
+		</set>
+		
+		<!--Rampart Set - Potency based off VIT-->
+		<set name="Rampart" baseset="Enmity">
+			<head>Valor Coronet</head>
+			<hands>Kng. Handschuhs</hands>
+			<ring2>Breeze Ring</ring2>
+			<neck>Shield Torque</neck>
+			<ammo>Bibiki Seashell</ammo>
+		</set>
+		
+		<!--PDT Set - Stack Physical Defense -->
+		<!--Toggle: /pdt-->
+		<set name="PDT">
+			<sub>Koenig Shield</sub>
+			<head>Koenig Schaller</head>
+			<body>Valor Surcoat</body>
+			<hands>Valor Gauntlets</hands>
+			<legs>Blood Cuisses</legs>
+			<feet>Askar Gambieras</feet>
+			<neck>Parade Gorget</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Crimson Earring</ear2>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Bloodbead Ring</ring2>
+			<back>Valor Cape</back>
+			<range>displaced</range>
+			<ammo>Bibiki Seashell</ammo>
+		</set>
+		
+		<!-- MDT Set - Stack Magic Defense -->
+		<!-- Toggle: /mdt -->
+		<set name="MDT">
+			<!--main</main-->
+			<sub>Nms. Shield +1</sub>
+			<range>Lamian Kaman</range>
+			<ammo>displaced</ammo>
+			<head>Coral Visor +1</head>
+			<body>Cor. Scale Mail +1</body>
+			<hands>Coral Fng. Gnt. +1</hands>
+			<legs>Coral Cuisses +1</legs>
+			<feet>Crimson Greaves</feet>
+			<neck>Parade Gorget</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+			<back>Lamia Mantle +1</back>
+		</set>
+		
+		<!--Prioritize items with -HP in this set-->
+		<!--Pushes HP down temporarily before curing-->
+		<set name="Precast">
+			<head>Emperor Hairpin</head>
+			<body>Assault Jerkin</body>
+			<hands>Dst. Mittens +1</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Harmonia's Torque</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Hospitaler Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Merman's Earring</ring1>
+			<ring2>Merman's Ring</ring2>
+			<back>Lamia Mantle +1</back>
+		    <range>displaced</range>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!--Prioritize items with HP+ in this set--> 
+		<!--Allows you to heal yourself for more HP & generates more Enmity-->
+		<set name="Healing">
+			<head>Valor Coronet</head>
+			<body>Homam Corazza</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Marine F Boots</feet>
+			<neck>Shield Torque</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Crimson Earring</ear1>
+			<ear2>Hospitaler Earring</ear2>
+			<ring1>Bloodbead Ring</ring1>
+			<ring2>Bomb Queen Ring</ring2>
+			<back>Valor Cape</back>
+		    <range>displaced</range>
+			<ammo>Fenrir's Stone</ammo>
+		</set>
+		
+		<!--Stack Haste-->
+		<set name="Haste">
+			<head>Walahra Turban</head>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>
+			<waist>Swift Belt</waist>
+		</set>
+		
+		<set name="Resting">
+			<head>displaced</head>
+			<body>Vermillion Cloak</body>
+		</set>
+		
+		<!--These sets can be toggled ON/OFF-->
+		
+		<!-- Toggle: /kite -->
+		<set name="Kite">
+			<main>Macuahuitl +1</main>
+			<sub>Koenig Shield</sub>
+			<legs>Blood Cuisses</legs>
+		</set>
+		
+		<!-- Toggle: /fastpants -->
+		<set name="FastPants">
+			<legs>Blood Cuisses</legs>
+		</set>
+		
+		<!-- Toggle: /earth -->
+		<set name="EarthStaff">
+			<main>Earth Staff</main>
+			<sub>displaced</sub>
+		</set>
+		
+		<!-- Toggle: /vermy -->
+		<set name="Vermy">
+			<head>displaced</head>
+			<body>Vermillion Cloak</body>
+		</set>
+
+		<set name="RR">
+			<head>Reraise Hairpin</head>
+			<neck>Reraise Gorget</neck>
+		</set>
+		<include>
+		</include>
+    </sets>
+	
+	<init>
+		<command>/macro book 6</command>
+			<if p_subjob="WAR"><command delay="500">/macro set 1</command></if>	
+			<if p_subjob="NIN"><command delay="500">/macro set 2</command></if>	
+			<if p_subjob="SAM"><command delay="500">/macro set 3</command></if>	
+    </init>
+	
+	<variables>
+		<var name="Set">DPS</var>
+		<var name="Set">Acc</var>
+		<var name="Set">Base</var>
+	    <var name="PDT">false</var>
+	    <var name="MDT">false</var>
+		<var name="Kite">false</var>
+	    <var name="DPS">false</var>
+		<var name="FastPants">false</var>
+		<var name="Vermy">false</var>
+		<var name="EarthStaff">false</var>
+		<var name="RR">false</var>
+	</variables>
+	
+	<inputcommands>
+		<cmd input="/set ">
+            <setvar name="Set" value="%arg1" />
+            <addtochat color="159">TP Set: $Set</addtochat>
+            <doidlegear />
+		</cmd>
+		<cmd input="/mdt">
+			<if advanced="$MDT=false">
+				<setvar name="PDT" value="false" />
+				<setvar name="MDT" value="true" />
+				<addtochat color="57">MDT: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="MDT" value="false" />
+				<addtochat color="57">MDT: Off</addtochat>
+			</else> 
+		</cmd>
+	    <cmd input="/pdt">
+			<if advanced="$PDT=false">
+				<setvar name="MDT" value="false" />
+				<setvar name="PDT" value="true" />
+				<addtochat color="57">PDT: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="PDT" value="false" />
+				<addtochat color="57">PDT: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/kite">
+			<if advanced="$Kite=false">
+				<setvar name="Kite" value="true" />
+				<addtochat color="57">Kiting: On</addtochat>
+			</if>
+			<else>
+				<setvar name="Kite" value="false" />
+				<addtochat color="57">Kiting: Off</addtochat>
+			</else>
+		</cmd> 
+		<cmd input="/earth">
+			<if advanced="$EarthStaff=false">
+				<setvar name="EarthStaff" value="true" />
+				<addtochat color="57">Earth Staff: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="EarthStaff" value="false" />
+				<addtochat color="57">Earth Staff: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/fastpants">
+			<if advanced="$FastPants=false">
+				<setvar name="FastPants" value="true" />
+				<addtochat color="57">Fast Pants: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="FastPants" value="false" />
+				<addtochat color="57">Fast Pants: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/vermy">
+			<if advanced="$Vermy=false">
+				<setvar name="Vermy" value="true" />
+				<addtochat color="57">Vermy: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="Vermy" value="false" />
+				<addtochat color="57">Vermy: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/RR">
+			<if advanced="$RR=false">
+				<setvar name="RR" value="true" />
+				<addtochat color="57">RR: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="RR" value="false" />
+				<addtochat color="57">RR: Off</addtochat>
+			</else> 
+		</cmd>
+	</inputcommands>
+	
+	<idlegear>
+		<if p_status="idle">
+			<equip set="Idle" />
+				<if buffactive="114">
+					<equip>
+						<body>Valor Surcoat</body>
+					</equip>
+				</if>
+				<if advanced="$Kite=true">
+					<equip set="Kite" />
+				</if>
+				<if advanced="%p_tp=>=500">
+					<equip lock="true">
+						<main>%eq_main</main>
+						<sub>%eq_sub</sub>
+						<range>%eq_range</range>
+						<ammo>%eq_ammo</ammo>
+					</equip>
+				</if>		
+		</if>
+		<if p_status="engaged">
+			<equip set="TP-$Set" />
+				<if buffactive="114">
+					<equip>
+						<body>Valor Surcoat</body>
+					</equip>
+				</if>
+				<if advanced="%p_hpp=>=84" >
+					<equip lock="true">
+						<neck>Parade Gorget</neck>
+					</equip>
+				</if>
+				<if advanced="%p_hpp=<=49" >
+					<equip lock="true">
+						<ring2>Hercules' Ring</ring2>
+					</equip>
+				</if> 				
+				<if advanced="$set=DPS">
+						<if e_time=">6.00|<18.00">
+						<equip>
+							<ear2>Fenrir's Earring</ear2>
+						</equip>
+					</if>
+				</if>
+				<if advanced="%p_tp=>=500">
+					<equip lock="true">
+						<main>%eq_main</main>
+						<sub>%eq_sub</sub>
+						<range>%eq_range</range>
+						<ammo>%eq_ammo</ammo>
+					</equip>
+				</if>
+		</if>
+		<if p_status="resting">
+				<equip set="Resting" />
+			</if>
+		<if advanced="$PDT=true"> 
+			<equip set="PDT" />
+				<if e_time="<18.00|>6.00">
+					<equip>
+						<range>displaced</range>
+						<ammo>Fenrir's Stone</ammo>
+					</equip>
+				</if>
+			<if advanced="$Kite=true">
+				<equip set="Kite" />
+			</if>
+		</if>				
+		<if advanced="$MDT=true"> 
+			<equip set="MDT" /> 
+				<if e_time="<18.00|>6.00">
+					<equip>
+						<range>displaced</range>
+						<ammo>Fenrir's Stone</ammo>
+					</equip>
+				</if>
+			<if advanced="$Kite=true">
+				<equip set="Kite" />
+			</if>
+		</if>
+		
+		<if e_area="Ru'Lude Gardens|Upper Jeuno|Lower Jeuno|Port Jeuno|Aht Urhgan Whitegate|Al Zahbi|Nashmau|Mhaura|Selbina|Norg|Kazham|Rabao|Tavnazian Safehold">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip set="Town">
+				<body>Kingdom Aketon</body>
+			</equip>
+        </if>
+		<if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+			<equip set="Town"  />
+        </if>
+		
+		<if advanced="$FastPants=true"> 
+            <equip set="FastPants" />
+        </if>
+		<if advanced="$EarthStaff=true"> 
+            <equip set="EarthStaff" />
+        </if>
+		<if advanced="$Vermy=true"> 
+            <equip set="Vermy" />
+        </if>
+		<if advanced="$RR=true"> 
+            <equip set="RR" />
+        </if>
+		<if advanced="%p_hpp=>=84">
+			<equip lock="true">
+				<neck>Parade Gorget</neck>
+			</equip>
+		</if>
+	   	<if advanced="%p_hpp=<=49">
+			<equip lock="true">
+				<ring2>Hercules' Ring</ring2>
+			</equip>
+		</if> 
+		<if eq_ring2="Tavnazian Ring">
+            <equip lock="true">
+                <ring2>Tavnazian Ring</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Return Ring">
+            <equip lock="true">
+                <ring2>Return Ring</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Emperor Band">
+            <equip lock="true">
+                <ring2>Emperor Band</ring2>
+            </equip>
+        </if>
+	</idlegear>
+	
+	<premagic>
+		<if at_type="self">
+			<if ad_skill="healingmagic">
+				<equip set="Precast" />
+			</if>
+		</if>
+	</premagic>
+	
+	<midmagic>
+		<if ad_name="Utsusemi*">
+			<equip set="Haste" />
+        </if>
+		<if ad_name="Flash">
+			<equip set="Enmity" />
+		</if>
+		<if ad_skill="healingmagic">
+			<equip set="Healing" />
+        </if>
+	</midmagic>
+	
+	<preranged>
+	</preranged>
+	
+    <midranged>
+    </midranged>
+	
+	<jobability>
+		<if ad_name="Provoke">
+			<equip set="Enmity" />
+	    </if>
+		<if ad_name="Chivalry">
+			<equip set="Chivalry" />
+	    </if>
+		<if ad_name="Holy Circle">
+			<equip set="Enmity">
+				<feet>Glt. Leggings +1</feet>
+			</equip>
+	    </if>
+		<if ad_name="Rampart">
+			<equip set="Rampart" />
+		</if>
+		<if ad_name="Shield Bash">
+			<equip>
+				<hands>Valor Gauntlets</hands>
+			</equip>
+	   </if>
+	   	<if ad_name="Sentinel">
+			<equip set="Enmity">
+				<feet>Valor Leggings</feet>
+			</equip>
+	   </if>
+	</jobability>
+	
+	<weaponskill>
+		<equip set="WS" />
+			<if ad_name="Ground Strike|Shell Crusher|Spinning Slash|True Strike">
+				<equip>
+					<neck>Breeze Gorget</neck>
+				</equip>
+			</if>
+			<if ad_name="Fast Blade|Retribution|Savage Blade">
+				<equip>
+					<neck>Soil Gorget</neck>
+				</equip>
+			</if>
+			<if ad_name="Atonement">
+				<equip set="Enmity">
+					<neck>Light Gorget</neck>
+				</equip>
+			</if>
+			<if ad_name="Swift Blade|Vorpal Blade">
+				<equip set="WS-Multi" />
+			</if>
+			<if ad_name="Spirits Within">
+				<equip set="WS-SW" />
+			</if>
+	</weaponskill>
+</ashitacast>

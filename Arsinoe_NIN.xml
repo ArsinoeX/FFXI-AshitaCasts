@@ -1,0 +1,519 @@
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>True</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="Idle">
+			<head>Opo-opo Crown</head>
+			<body>Koga Chainmail</body>
+			<hands>Nin. Tekko +1</hands>
+			<legs>Koga Hakama</legs>
+			<feet>Nin. Kyahan +1</feet>
+			<neck>Hope Torque</neck>
+			<waist>Scouter's Rope</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Boxer's Mantle</back>
+		    <range>Ungur Boomerang</range>
+			<ammo>displaced</ammo>
+		</set>
+		
+		<set name="Town" baseset="Idle">
+		</set>
+		
+		<!-- TP Set - Tank-Oriented -->
+		<set name="TP">
+			<head>Walahra Turban</head>
+			<body>Scp. Harness +1</body>
+			<hands>Dusk Gloves</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Hope Torque</neck>
+			<waist>Swift Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Boxer's Mantle</back>
+		</set>
+		
+		<!-- TP Set - DPS-Oriented -->
+		<set name="DPS">
+			<head>Walahra Turban</head>
+			<body>Haubergeon +1</body>
+			<hands>Dusk Gloves</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Dusk Ledelsens</feet>
+			<neck>Hope Torque</neck>
+			<waist>Swift Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Forager's Mantle</back>
+			<range>displaced</range>
+			<ammo>Bomb Core</ammo>
+		</set>
+		
+		<!-- WS Set - Normal Accuracy -->
+	    <set name="WS">
+			<head>Voyager Sallet</head>
+			<body>Kirin's Osode</body>
+			<hands>Nin. Tekko +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Marine F Boots</feet>
+			<neck>Spike Necklace</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+		
+		<!-- WS Set - High Accuracy -->
+		<set name="WSAcc">
+			<head>Voyager Sallet</head>
+			<body>Haubergeon +1</body>
+			<hands>Nin. Tekko +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Marine F Boots</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Potent Belt</waist>
+			<ear1>Minuet Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+		
+		<!-- WS Set - Slug Shot -->
+		<set name="WSAGI">
+			<head>Optical Hat</head>
+			<body>Koga Chainmail</body>
+			<hands>Nin. Tekko +1</hands>
+			<legs>Pln. Seraweels</legs>
+			<feet>Nin. Kyahan +1</feet>
+			<neck>Light Gorget</neck>
+			<waist>Precise Belt</waist>
+			<ear1>Drone Earring</ear1>
+			<ear2>Intruder Earring</ear2>
+			<ring1>Breeze Ring</ring1>
+			<ring2>Scorpion Ring +1</ring2>
+			<back>Amemet Mantle +1</back>
+		</set>
+		
+		<!-- Ranged Set - Stack Ranged Acc & AGI -->
+		<set name="Ranged">
+			<head>Optical Hat</head>
+			<body>Pln. Khazagand</body>
+			<hands>Nin. Tekko +1</hands>
+			<legs>Pln. Seraweels</legs>
+			<feet>Nin. Kyahan +1</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Precise Belt</waist>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+			<back>Amemet Mantle +1</back>
+		</set>
+		
+		<set name="Precast">
+			<ear1>Loquac. Earring</ear1>
+		</set>
+		
+		<set name="Ninjutsu">
+			<head>Ninja Hatsuburi</head>
+            <hands>Dusk Gloves</hands>
+			<legs>Byakko's Haidate</legs>
+            <feet>Koga Kyahan</feet>
+            <waist>Swift Belt</waist>
+		</set>
+		
+		<set name="Haste">
+            <head>Walahra Turban</head>
+            <hands>Dusk Gloves</hands>
+			<legs>Byakko's Haidate</legs>
+            <feet>Fuma Kyahan</feet>
+            <waist>Swift Belt</waist>
+        </set>
+		
+		<!-- Enmity Set - Stack Enmity -->
+		<set name="Enmity">
+			<head>Arhat's Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Darksteel Mittens +1</hands>
+			<legs>Dst. Subligar +1</legs>
+			<neck>Harmonia's Torque</neck>
+			<waist>Warwolf Belt</waist>
+		</set>
+		
+		<!--PDT Set - Stack Physical Defense -->
+		<!--Toggle: /pdt-->
+		<set name="PDT">
+			<head>Arh. Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Darksteel Mittens +1</hands>
+			<legs>Dst. Subligar +1</legs>
+			<feet>Dance Shoes</feet>
+			<neck>Evasion Torque</neck>
+			<waist>Scouter's Rope</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Dodge Earring</ear2>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Bloodbead Ring</ring2>
+			<back>Boxer's Mantle</back>
+			<range>Ungur Boomerang</range>
+		</set>
+		
+		<!--MDT Set - Stack Magic Defense -->
+		<!--Toggle: /mdt-->
+		<set name="MDT">
+		    <head>Walahra Turban</head>
+			<body>Kirin's Osode</body>
+			<hands>Darksteel Mittens +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Dance Shoes</feet>
+			<neck>Evasion Torque</neck>
+			<waist>Scouter's Rope</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+			<back>Lamaia Mantle +1</back>
+			<range>Lamian Kaman</range>
+		</set>
+		
+		<!--Evasion Set - Stack Evasion -->
+		<!--Toggle: /eva-->
+	  	<set name="EVADay">
+		    <head>Optical Hat</head>
+			<body>Scp. Harness +1</body>
+			<hands>Seiryu's Kote</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Dance Shoes</feet>
+			<neck>Evasion Torque</neck>
+			<waist>Scouter's Rope</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Dodge Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Boxer's Mantle</back>
+			<range>Ungur Boomerang</range>
+			<ammo>displaced</ammo>
+		</set>
+		
+		<set name="EVANight" baseset="EVADay">
+			<legs>Koga Hakama</legs>
+			<range>displaced</range>
+			<ammo>Fenrir's Stone</ammo>
+		</set>
+		
+		<set name="Resting">
+			<body>Pln. Khazagand</body>
+		</set>
+		
+    	<set name="Kite">
+	    	<feet>Nin. Kyahan +1</feet>
+		</set>
+		
+		<set name="Cooking">
+			<main>Hocho</main>
+			<head>Chef's Hat</head>
+			<body>Culinarian's Apron</body>
+		</set>
+		<include>
+		</include>
+    </sets>
+	
+	<init>
+        <command>/macro book 5</command>
+        <command delay="1000">/macro set 1</command>
+    </init>
+	
+	<variables>
+	    <var name="PDT">false</var>
+	    <var name="MDT">false</var>
+		<var name="Kite">false</var>
+	    <var name="EVA">false</var>
+	    <var name="DPS">false</var>
+		<var name="Cooking">false</var>
+	</variables>
+	
+	<inputcommands>
+	    <cmd input="/pdt">
+			<if advanced="$PDT=false">
+			<setvar name="PDT" value="true" />
+			<setvar name="MDT" value="false" />
+			<setvar name="EVA" value="false" />
+			<setvar name="DPS" value="false" />
+				<addtochat color="57">PDT: On</addtochat>
+			</if>
+			<else> 
+			<setvar name="PDT" value="false" />
+				<addtochat color="57">PDT: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/mdt">
+			<if advanced="$MDT=false">
+			<setvar name="MDT" value="true" />
+			<setvar name="PDT" value="false" />
+			<setvar name="EVA" value="false" />
+			<setvar name="DPS" value="false" />
+				<addtochat color="57">MDT: On</addtochat>
+			</if>
+			<else> 
+			<setvar name="MDT" value="false" />
+				<addtochat color="57">MDT: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/kite">
+			<if advanced="$Kite=false">
+			<setvar name="Kite" value="true" />
+				<addtochat color="57">Kiting On.</addtochat>
+			</if>
+			<else>
+			<setvar name="Kite" value="false" />
+				<addtochat color="57">Kiting Off.</addtochat>
+			</else>
+		</cmd>
+		<cmd input="/eva">
+			<if advanced="$EVA=false">
+			<setvar name="EVA" value="true" />
+			<setvar name="MDT" value="false" />	   
+			<setvar name="PDT" value="false" />
+			<setvar name="DPS" value="false" />
+				<addtochat color="57">EVA On.</addtochat>
+			</if>
+			<else>
+			<setvar name="EVA" value="false" />
+				<addtochat color="57">EVA Off.</addtochat>
+			</else>
+		</cmd> 
+		<cmd input="/dps">
+			<if advanced="$DPS=false">
+			<setvar name="DPS" value="true" />
+			<setvar name="MDT" value="false" />
+			<setvar name="PDT" value="false" />
+			<setvar name="EVA" value="false" />
+				<addtochat color="57">DPS On.</addtochat>
+			</if>
+			<else> 
+			<setvar name="DPS" value="false" />
+				<addtochat color="57">DPS Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/cooking">
+			<if advanced="$Cooking=false">
+			<setvar name="Cooking" value="true" />
+				<addtochat color="57">Cooking On.</addtochat>
+			</if>
+			<else> 
+			<setvar name="Cooking" value="false" />
+				<addtochat color="57">Cooking Off.</addtochat>
+			</else> 
+		</cmd>
+	</inputcommands>
+	
+	<idlegear>
+		<if p_status="idle">
+	    	<equip set="Idle" />
+				<if e_time=">18.00|<6.00">
+				<equip>
+					<feet>Nin. Kyahan +1</feet>
+				</equip>
+				</if>
+				<if advanced="$DPS=true">
+						<if advanced="%p_tp=>1">
+							<equip>
+								<range>displaced</range>
+								<ammo>Bomb Core</ammo>
+							</equip>
+						</if>
+				</if>
+		</if>
+		<if p_status="engaged">
+			<equip set="TP" />
+				<if e_time=">18.00|<6.00">
+					<equip>
+						<hands>Kog. Tekko +1</hands>
+					</equip>
+				</if>
+				<if advanced="$DPS=true">
+					<equip set="DPS" />
+						<if e_time=">18.00|<6.00">
+							<equip>
+								<hands>Kog. Tekko +1</hands>
+							</equip>
+						</if>
+				</if>
+		</if>
+		<if p_status="resting">
+			<equip set="Resting" />
+		</if>
+		<if advanced="$EVA=true">
+			<if e_time=">18.00|<6.00"> 
+				<equip set="EVANight" />
+					<if buffactive="195|197|198|199|201">
+						<equip>
+							<ear2>Melody Earring</ear2>
+						</equip>
+					</if>
+			</if>
+			<elseif e_time="<18.00|>6.00"> 
+				<equip set="EVADay" />
+					<if buffactive="195|197|198|199|201">
+						<equip>
+							<ear2>Melody Earring</ear2>
+						</equip>
+					</if>
+			</elseif>
+		</if>
+		<if advanced="$PDT=true"> 
+			<equip set="PDT" />   	
+				<if advanced="$Kite=true">
+					<equip set="Kite" />
+				</if>
+		</if>				
+		<if advanced="$MDT=true"> 
+			<equip set="MDT" />  
+				<if advanced="$Kite=true">
+					<equip set="Kite" />
+				</if>
+		</if>
+		<if advanced="$Kite=true">
+			<equip set="Kite" />
+		</if>
+		<if advanced="$Cooking=true"> 
+            <equip set="Cooking" lock="true" />
+        </if>
+		<if eq_ring2="Emperor Band">
+            <equip lock="true">
+				<ring2>Emperor Band</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Tavnazian Ring">
+            <equip lock="true">
+				<ring2>Tavnazian Ring</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Homing Ring">
+            <equip lock="true">
+				<ring2>Homing Ring</ring2>
+            </equip>
+        </if>
+		<if e_area="Ru'Lude Gardens|Upper Jeuno|Lower Jeuno|Port Jeuno|Aht Urhgan Whitegate|Al Zahbi|Nashmau|Mhaura|Selbina|Norg|Kazham|Rabao|Tavnazian Safehold">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<equip set="Town" />
+				<!--body>Republic Aketon</body-->
+        </if>
+		<if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip set="Town">
+				<body>Kingdom Aketon</body>
+			</equip>
+        </if>
+		<if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+			<equip set="Town"  />
+        </if>
+	</idlegear>
+	
+	<premagic>
+		<equip set="Precast" />
+	</premagic>
+	
+	<midmagic>
+		<if ad_skill="ninjutsu">
+			<equip set="Ninjutsu" />
+				<if ad_name="Utsusemi*|Monomi*|Tonko*" >
+					<equip set="Haste" />
+				<if e_time=">18.00|<6.00">
+					<equip>
+						<hands>Kog. Tekko +1</hands>
+					</equip>
+				</if>
+				</if>
+				<if ad_name="Katon*|Suiton*|Raiton*|Doton*|Huton*|Hyoton*" >
+					<equip>
+						<head>Koga Hatsuburi</head>
+					</equip>
+				</if>
+		</if>
+		<if ad_skill="darkmagic">
+			<equip set="Enmity" />
+        </if>
+	</midmagic>
+	
+	<jobability>
+		<if ad_name="Provoke">
+			<equip set="Enmity" />
+		</if>
+	</jobability>
+	
+	<weaponskill>
+		<if ad_name="Blade*">
+			<equip set="WS" />
+				<if ad_name="Blade: Kamu">
+					<equip>
+						<neck>Breeze Gorget</neck>
+					</equip>
+				</if>
+				<if ad_name="Blade: Ten|Blade: Restu">
+					<equip>
+						<neck>Soil Gorget</neck>
+					</equip>
+				</if>
+				<if e_time=">18.00|<6.00">
+					<equip>
+						<hands>Kog. Tekko +1</hands>
+					</equip>
+				</if>
+		</if>
+		<if ad_name="Blade: Ku|Blade: Jin">
+			<equip set="WSAcc" />
+				<if ad_name="Blade: Ku">
+					<equip>
+						<neck>Light Gorget</neck>
+					</equip>
+				</if>
+				<if ad_name="Blade: Jin">
+					<equip>
+						<neck>Breeze Gorget</neck>
+					</equip>
+				</if>
+				<if e_time=">18.00|<6.00">
+					<equip>
+						<hands>Kog. Tekko +1</hands>
+					</equip>
+				</if>
+		</if>
+		<if ad_name="Slug Shot">
+			<equip set="WSAGI" />
+		</if>
+	</weaponskill>
+	
+	<preranged>
+        <equip set="Ranged" />
+			<if e_time=">18.00|<6.00">
+				<equip>
+					<ear1>Fenrir's Earring</ear1>
+				</equip>
+			</if>
+    </preranged>
+	
+    <midranged>
+        <equip set="Ranged" />
+			<if e_time=">18.00|<6.00">
+				<equip>
+					<ear1>Fenrir's Earring</ear1>
+				</equip>
+			</if>
+    </midranged>
+</ashitacast>

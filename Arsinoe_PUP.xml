@@ -70,7 +70,7 @@
 		</set>
 		
 		<!--Evasion Set - Stack Evasion -->
-		<!--Toggle: /eva-->
+		<!--Toggle: /eva -->
 		<set name="EVA">
 			<head>Optical Hat</head>
 			<body>Pln. Khazagand</body>
@@ -86,7 +86,7 @@
             <ring2>Breeze Ring</ring2>
         </set>
 		
-		<!-- Manuever Sets - Stack appropriate stats for each-->
+		<!-- Manuever Sets - Stack appropriate stats for each -->
 		<set name="STR">
 			<main>Vulcan's Staff</main>
 			<head>Voyager Sallet</head>
@@ -227,19 +227,19 @@
         </set>
 		
 		<!-- Pet Accuracy Toggle -->
-		<!--Toggle: /petacc-->
+		<!--Toggle: /petacc -->
 		<set name="PetAcc">
             <body>Pantin Tobe</body>
 		</set>
 		
 		<!-- Regen Toggle -->
-		<!--Toggle: /regen-->
+		<!--Toggle: /regen -->
 		<set name="Regen">
             <head>Pantin Taj</head>
         </set>
 		
-		<!--Level Sync Sets-->
-		<!--TP Set (Level 40 Sync)-->
+		<!-- Level Sync Sets -->
+		<!-- TP Set (Level 40 Sync) -->
 		<set name="40">
 			<main>Vampiric Claws</main>
 			<ammo>Automat. Oil +1</ammo>
@@ -257,7 +257,7 @@
             <ring2>Sniper's Ring</ring2>
 		</set>
 		
-		<!--TP Set (Level 50 Sync)-->
+		<!-- TP Set (Level 50 Sync) -->
 		<set name="50">
 			<main>Tct.Mag. Hooks</main>
             <head>Voyager Sallet</head>
@@ -274,7 +274,7 @@
             <ring2>Sniper's Ring</ring2>
 		</set>
 		
-		<!--TP Set (Level 60 Sync)-->
+		<!-- TP Set (Level 60 Sync) -->
 		<set name="60">
 			<main>Tct.Mag. Hooks</main>
             <head>Voyager Sallet</head>
@@ -291,7 +291,7 @@
             <ring2>Toreador's Ring</ring2>
 		</set>
 		
-		<!--WS Set (Levels 40-50)-->
+		<!-- WS Set (Levels 40-50) -->
 		<set name="WS-LO">
             <head>Voyager Sallet</head>
 			<body>Cerise Doublet</body>
@@ -307,7 +307,7 @@
             <ring2>Courage Ring</ring2>
 		</set>
 		
-		<!--WS Set (Level 60)-->
+		<!-- WS Set (Level 60) -->
 		<set name="WS-HI">
             <head>Voyager Sallet</head>
 			<body>Cerise Doublet</body>
@@ -380,6 +380,8 @@
 				<addtochat color="57">Regen: Off.</addtochat>
 			</else> 
 		</cmd>
+		
+		<!-- Weapon Lock/Unlock Toggle -->
 		<cmd input="/wep">
         <if advanced="$WepSwap=true">
             <setvar name="WepSwap" value="false" />

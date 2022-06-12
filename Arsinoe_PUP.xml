@@ -69,8 +69,8 @@
             <ring2>Toreador's Ring</ring2>
 		</set>
 		
-		<!--Evasion Set - Stack Evasion -->
-		<!--Toggle: /eva -->
+		<!-- Evasion Set - Stack Evasion -->
+		<!-- Toggle: /eva -->
 		<set name="EVA">
 			<head>Optical Hat</head>
 			<body>Pln. Khazagand</body>
@@ -227,13 +227,13 @@
         </set>
 		
 		<!-- Pet Accuracy Toggle -->
-		<!--Toggle: /petacc -->
+		<!-- Toggle: /petacc -->
 		<set name="PetAcc">
             <body>Pantin Tobe</body>
 		</set>
 		
 		<!-- Regen Toggle -->
-		<!--Toggle: /regen -->
+		<!-- Toggle: /regen -->
 		<set name="Regen">
             <head>Pantin Taj</head>
         </set>

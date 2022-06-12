@@ -1,0 +1,571 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>True</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	
+	<sets>
+		<set name="Idle">
+			<main>Indra Katars</main>
+		    <range>Turbo Animator</range>
+	        <head>Opo-opo Crown</head>
+            <body>Pln. Khazagand</body>
+            <hands>Pantin Dastanas</hands>
+            <legs>Pln. Seraweels</legs>
+        	<feet>Pup. Babouches +1</feet>
+            <neck>Peacock Charm</neck>
+			<back>Boxer's Mantle</back>
+            <waist>Swift Belt</waist> 
+            <ear1>Merman's Earring</ear1> 
+			<ear2>Brutal Earring</ear2> 
+            <ring1>Jelly Ring</ring1> 
+            <ring2>Rajas Ring</ring2>
+		</set>
+		
+		<set name="TP">
+            <head>Walahra Turban</head>
+			<body>Pln. Khazagand</body>
+           	<hands>Pantin Dastanas</hands>
+            <legs>Crow Hose</legs>
+            <feet>Pup. Babouches +1</feet>
+            <neck>Peacock Charm</neck>
+			<back>Boxer's Mantle</back>
+            <waist>Swift Belt</waist>
+			<ear1>Merman's Earring</ear1> 
+			<ear2>Brutal Earring</ear2> 		
+            <ring1>Rajas Ring</ring1> 
+            <ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<set name="WS">
+		    <head>Voyager Sallet</head>
+			<body>Pln. Khazagand</body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Pln. Seraweels</legs>
+            <feet>Pup. Babouches +1</feet>
+            <neck>Spike Necklace</neck>
+			<back>Bellicose Mantle</back>
+            <waist>Potent Belt</waist>
+			<ear1>Merman's Earring</ear1> 
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1> 
+            <ring2>Flame Ring</ring2>
+		</set>
+		
+		<set name="WSAcc">
+			<head>Optical Hat</head>
+			<body>Pln. Khazagand</body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Pantin Churidars</legs>
+            <feet>Pup. Babouches +1</feet>
+            <neck>Soil Gorget</neck>
+			<back>Bellicose Mantle</back>
+            <waist>Potent Belt</waist>
+			<ear1>Diabolos's Earring</ear1> 
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1> 
+            <ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<!--Evasion Set - Stack Evasion -->
+		<!--Toggle: /eva-->
+		<set name="EVA">
+			<head>Optical Hat</head>
+			<body>Pln. Khazagand</body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Crow Hose</legs>
+            <feet>Pup. Babouches +1</feet>
+            <neck>Evasion Torque</neck>
+			<back>Boxer's Mantle</back>
+            <waist>Potent Belt</waist>
+			<ear1>Ethereal Earring</ear1> 
+			<ear2>Dodge Earring</ear2>
+			<ring1>Rajas Ring</ring1> 
+            <ring2>Breeze Ring</ring2>
+        </set>
+		
+		<!-- Manuever Sets - Stack appropriate stats for each-->
+		<set name="STR">
+			<main>Vulcan's Staff</main>
+			<head>Voyager Sallet</head>
+			<body></body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Pln. Seraweels</legs>
+            <feet>Pup. Babouches +1</feet>
+            <neck>Chivalrous Chain</neck>
+			<back></back>
+            <waist>Potent Belt</waist>
+			<ear1>Bushinomimi</ear1> 
+			<ear2>Minuet Earring</ear2>
+			<ring1>Rajas Ring</ring1> 
+            <ring2>Flame Ring</ring2>
+        </set>
+		
+        <set name="AGI">
+			<main>Wind Staff</main>
+			<head>Emperor Hairpin</head>
+			<body>Mrc.Cpt. Doublet</body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs></legs>
+            <feet>Custom F Boots</feet>
+            <neck>Hope Torque</neck>
+			<back></back>
+            <waist></waist>
+			<ear1>Drone Earring</ear1> 
+			<ear2>Drone Earring</ear2>
+			<ring1>Breeze Ring</ring1> 
+            <ring2>Emerald Ring</ring2>
+        </set>
+		
+        <set name="DEX">
+			<main>Thunder Staff</main>
+			<head>Voyager Sallet</head>
+			<body>Mrc.Cpt. Doublet</body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs></legs>
+            <feet>Marine F Boots</feet>
+            <neck>Spike Necklace</neck>
+			<back></back>
+            <waist></waist>
+			<ear1>Intruder Earring</ear1> 
+			<ear2>Minuet Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+            <ring2>Thunder Ring</ring2>
+        </set>
+		
+        <set name="VIT">
+			<main>Earth Staff</main>
+			<head>Opo-opo Crown</head>
+			<body>Custom Vest</body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Pantin Churidars</legs>
+            <feet>Marine F Boots</feet>
+            <neck></neck>
+			<back></back>
+            <waist></waist>
+			<ear1></ear1> 
+			<ear2></ear2>
+			<ring1>Breeze Ring</ring1> 
+            <ring2></ring2>
+        </set>
+		
+        <set name="CHR">
+			<main>Apollo's Staff</main>
+			<head>Noble's Ribbon</head>
+			<body></body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Custom Pants</legs>
+            <feet>Dance Shoes</feet>
+            <neck>Flower Necklace</neck>
+			<back></back>
+            <waist></waist>
+			<ear1>Melody Earring</ear1> 
+			<ear2></ear2>
+			<ring1></ring1> 
+            <ring2></ring2>
+        </set>
+		
+        <set name="INT">
+			<main>Aquilo's Staff</main>
+			<head>Opo-opo Crown</head>
+			<body></body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs></legs>
+            <feet>Custom F Boots</feet>
+            <neck></neck>
+			<back></back>
+            <waist></waist>
+			<ear1></ear1> 
+			<ear2></ear2>
+			<ring1></ring1> 
+            <ring2></ring2>
+        </set>
+		
+        <set name="MND">
+			<main>Water Staff</main>
+			<head>Opo-opo Crown</head>
+			<body></body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Custom Pants</legs>
+            <feet>Pantin Babouches</feet>
+            <neck></neck>
+			<back></back>
+            <waist></waist>
+			<ear1></ear1> 
+			<ear2></ear2>
+			<ring1>Thunder Ring</ring1> 
+            <ring2></ring2>
+        </set>
+		
+        <set name="MP">
+			<main>Pluto's Staff</main>
+			<head>Walahra Turban</head>
+			<body></body>
+           	<hands>Pup. Dastanas +1</hands>
+            <legs>Custom Pants</legs>
+            <feet>Custom F Boots</feet>
+            <neck></neck>
+			<back></back>
+            <waist></waist>
+			<ear1>Loquac. Earring</ear1> 
+			<ear2></ear2>
+			<ring1></ring1> 
+            <ring2></ring2>
+        </set>
+		
+		<!-- Stack Haste -->
+		<set name="Haste">
+			<head>Walahra Turban</head>
+			<waist>Swift Belt</waist> 
+        </set>
+		
+		<set name="Resting">
+			<head>Pantin Taj</head>
+            <!--head>Pup. Taj</head-->
+        </set>
+		
+		<!-- Pet Accuracy Toggle -->
+		<!--Toggle: /petacc-->
+		<set name="PetAcc">
+            <body>Pantin Tobe</body>
+		</set>
+		
+		<!-- Regen Toggle -->
+		<!--Toggle: /regen-->
+		<set name="Regen">
+            <head>Pantin Taj</head>
+        </set>
+		
+		<!--Level Sync Sets-->
+		<!--TP Set (Level 40 Sync)-->
+		<set name="40">
+			<main>Vampiric Claws</main>
+			<ammo>Automat. Oil +1</ammo>
+            <head>Emperor Hairpin</head>
+			<body>Custom Vest</body>
+           	<hands>Battle Gloves</hands>
+            <legs>Custom Pants</legs>
+            <feet></feet>
+            <neck>Peacock Charm</neck>
+			<waist>Tilt Belt</waist>
+			<feet>Custom F Boots</feet>
+			<ear1>Beetle Earring +1</ear1> 
+			<ear2>Beetle Earring +1</ear2>			
+            <ring1>Rajas Ring</ring1> 
+            <ring2>Sniper's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Level 50 Sync)-->
+		<set name="50">
+			<main>Tct.Mag. Hooks</main>
+            <head>Voyager Sallet</head>
+			<body>Cerise Doublet</body>
+           	<hands>Battle Gloves</hands>
+            <legs>Mrc.Cpt. Hose</legs>
+            <feet>Custom F Boots</feet>
+            <neck>Peacock Charm</neck>
+			<waist>Swift Belt</waist>
+			<back></back>
+			<ear1>Beetle Earring +1</ear1> 
+			<ear2>Beetle Earring +1</ear2> 				
+            <ring1>Rajas Ring</ring1> 
+            <ring2>Sniper's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Level 60 Sync)-->
+		<set name="60">
+			<main>Tct.Mag. Hooks</main>
+            <head>Voyager Sallet</head>
+			<body>Cerise Doublet</body>
+           	<hands>Battle Gloves</hands>
+            <legs>Mrc.Cpt. Hose</legs>
+            <feet>Pup. Babouches</feet>
+            <neck>Peacock Charm</neck>
+			<waist>Swift Belt</waist>
+			<back>Bellicose Mantle</back>
+			<ear1>Spike Earring</ear1> 
+			<ear2>Spike Earring</ear2> 				
+            <ring1>Rajas Ring</ring1> 
+            <ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<!--WS Set (Levels 40-50)-->
+		<set name="WS-LO">
+            <head>Voyager Sallet</head>
+			<body>Cerise Doublet</body>
+           	<hands>Custom F Gloves</hands>
+            <legs>Mrc.Cpt. Hose</legs>
+            <feet>Custom F Boots</feet>
+            <neck>Spike Necklace</neck>
+			<waist>Tilt Belt</waist>
+			<back></back>
+			<ear1>Beetle Earring +1</ear1> 
+			<ear2>Beetle Earring +1</ear2> 			
+            <ring1>Rajas Ring</ring1> 
+            <ring2>Courage Ring</ring2>
+		</set>
+		
+		<!--WS Set (Level 60)-->
+		<set name="WS-HI">
+            <head>Voyager Sallet</head>
+			<body>Cerise Doublet</body>
+           	<hands>Custom F Gloves</hands>
+            <legs>Mrc.Cpt. Hose</legs>
+            <feet>Marine F Boots</feet>
+            <neck>Spike Necklace</neck>
+			<waist>Potent Belt</waist>
+			<back>Bellicose Mantle</back>
+			<ear1>Spike Earring</ear1> 
+			<ear2>Spike Earring</ear2> 	 			
+            <ring1>Rajas Ring</ring1> 
+            <ring2>Courage Ring</ring2>
+		</set>
+		<include>
+		</include>
+    </sets>
+	
+	<init>
+        <command>/macro book 7</command>
+        <command delay="1000">/macro set 1</command>
+    </init>
+	
+	<variables>
+		<var name="Oil">false</var>
+		<var name="EVA">false</var>
+		<var name="PetAcc">false</var>
+		<var name="Regen">false</var>
+		<var name="WepSwap">false</var>
+	</variables>
+	
+	<inputcommands>
+		<cmd input="/oil">
+			<if advanced="$Oil=false">
+				<setvar name="Oil" value="true" />
+				<addtochat color="57">Oil+2</addtochat>
+			</if>
+			<else> 
+				<setvar name="Oil" value="false" />
+				<addtochat color="57">Oil+1</addtochat>
+			</else> 
+		</cmd>  
+		<cmd input="/eva">
+			<if advanced="$EVA=false">
+				<setvar name="EVA" value="true" />
+				<addtochat color="57">EVA On.</addtochat>
+			</if>
+			<else>
+				<setvar name="EVA" value="false" />
+				<addtochat color="57">EVA Off.</addtochat>
+			</else>
+		</cmd>   
+		<cmd input="/petacc">
+			<if advanced="$PetAcc=false">
+				<setvar name="PetAcc" value="true" />
+				<addtochat color="57">PetAcc: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="PetAcc" value="false" />
+				<addtochat color="57">PetAcc: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/regen">
+			<if advanced="$Regen=false">
+				<setvar name="Regen" value="true" />
+				<addtochat color="57">Regen: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="Regen" value="false" />
+				<addtochat color="57">Regen: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/wep">
+        <if advanced="$WepSwap=true">
+            <setvar name="WepSwap" value="false" />
+            <addtochat color="57">Weapon Swaps: Locked. </addtochat>
+         </if>
+        <else> 
+            <setvar name="WepSwap" value="true" />
+            <addtochat color="57">Weapon Swaps: Unlocked.</addtochat>
+         </else> 
+         </cmd>
+	</inputcommands>
+	
+	<idlegear>
+		<if p_status="idle">
+			<equip set="Idle" />
+				<if p_joblevel="40">
+					<equip set="40" />
+				</if>
+				<if p_joblevel="50">
+					<equip set="50" />
+				</if>
+				<if p_joblevel="60">
+					<equip set="60" />
+				</if>
+		</if>
+		<if p_status="engaged">
+			<equip set="TP" />
+				<if p_joblevel="40">
+					<equip set="40" />
+				</if>
+				<if p_joblevel="50">
+					<equip set="50" />
+				</if>
+				<if p_joblevel="60">
+					<equip set="60" />
+				</if>
+	    </if>
+		<if p_status="Resting">
+			<equip set="Resting" />
+	    </if>
+		<if advanced="$EVA=true"> 
+			<equip set="EVA" />
+		</if>
+		<if advanced="$Regen=true"> 
+            <equip set="Regen" lock="true" />
+        </if>
+		<if advanced="$PetAcc=true"> 
+            <equip set="PetAcc" lock="true" />
+        </if>
+		<if advanced="$Oil=true">
+			<equip>
+				<ammo>Automat. Oil +1</ammo>
+			</equip>
+		</if>	
+		<if advanced="$Oil=False"> 
+			<equip>
+				<ammo>Automat. Oil +2</ammo>
+			</equip>
+        </if>
+		<if eq_ring2="Emperor Band">
+            <equip lock="true">
+                <ring2>Emperor Band</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Tavnazian Ring">
+            <equip lock="true">
+                <ring2>Tavnazian Ring</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Homing Ring">
+            <equip lock="true">
+                <ring2>Homing Ring</ring2>
+            </equip>
+        </if>
+		<if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+			<equip>
+			</equip>
+        </if>
+		<if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<!--equip>
+				<body>Republic Aketon</body>
+			</equip-->
+		</if>
+		<if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip>
+				<body>Kingdom Aketon</body>
+			</equip>
+        </if>
+	</idlegear>
+	
+	<preranged>
+    </preranged>
+	
+    <midranged>
+    </midranged>
+	
+	<premagic>
+	</premagic>
+	
+	<midmagic>
+      <if ad_type="Ninjutsu">
+            <equip set="Haste" />
+      </if>
+	</midmagic>
+	
+	<jobability>
+		<if ad_name="Fire Maneuver">
+            <equip set="STR" />
+        </if>
+        <elseif ad_name="Ice Maneuver">
+            <equip set="INT" />
+        </elseif>
+        <elseif ad_name="Wind Maneuver">
+            <equip set="AGI" />
+        </elseif>
+        <elseif ad_name="Earth Maneuver">
+            <equip set="VIT" />
+        </elseif>
+        <elseif ad_name="Thunder Maneuver">
+            <equip set="DEX" />
+        </elseif>
+        <elseif ad_name="Water Maneuver">
+            <equip set="MND" />
+        </elseif>
+        <elseif ad_name="Light Maneuver">
+            <equip set="CHR" />
+        </elseif>
+        <elseif ad_name="Dark Maneuver">
+            <equip set="MP" />
+        </elseif>
+		<if ad_name="Repair">
+			<equip>
+				<feet>Pup. Babouches +1</feet>
+			</equip>
+	    </if>
+		<if advanced="$WepSwap=false"> 
+           <equip lock="true">
+               <main>%eq_main</main>
+               <sub>%eq_sub</sub>
+           </equip>
+        </if>
+	</jobability>
+	
+	<weaponskill>
+		<equip set="WS" />
+			<if p_joblevel="40|50">
+				<equip set="WS-LO" />
+				<gearlock length="2" />
+				</if>
+				<if p_joblevel="60">
+				<equip set="SW-HI" />
+				<gearlock length="2" />
+				</if>
+			<if e_time=">5.59|<17.59">
+				<equip>
+					<rear>Fenrir's Earring</rear>
+				</equip>
+			</if>
+			<if ad_name="Backhand Blow|Dragon Kick">
+				<equip>
+					<neck>Breeze Gorget</neck>
+				</equip>
+			</if>
+			<if ad_name="Howling Fist">
+				<equip>
+					<neck>Light Gorget</neck>
+				</equip>
+			</if>
+			<if ad_name="Asuran Fists|Stringing Pummel">
+				<equip set="WSAcc" />
+			</if>
+	</weaponskill>
+	
+	<petspell>
+		<equip>
+			<legs>Pantin Churidars</legs>
+		</equip>
+        <if ad_name="Stone*|Water*|Aero*|Fire*|Blizzard*|Thunder*">
+            <equip>
+                <feet>Pantin Babouches</feet>
+            </equip>
+        </if>
+		<if ad_name="Cure*">
+            <equip>
+                <legs>Pup. Churidars</legs>
+            </equip>
+        </if>
+    </petspell>
+</ashitacast>

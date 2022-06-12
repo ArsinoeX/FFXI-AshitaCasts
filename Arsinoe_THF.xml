@@ -1,0 +1,654 @@
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>true</statusupdate>
+		<hpupdate>true</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+
+	<sets>
+		<set name="Idle">
+			<head>Opo-opo Crown</head>
+			<body>Homam Corazza</body>
+			<hands>Assassin's Armlets</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>	
+			<neck>Peacock Charm</neck>
+			<waist>Scouter's Rope</waist>
+			<ear1>Ethereal Earring</ear1>
+			<rear>Brutal Earring</rear>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Amemet Mantle +1</back>
+			<range>Leo Crossbow +1</range>
+		</set>
+		
+		<set name="Town" baseset="Idle">
+			<feet>Strider Boots</feet>
+			<range>displaced</range>
+			<ammo>Fire Bomblet</ammo>
+		</set>
+
+		<set name="Resting">
+			<body>Pln. Khazagand</body>
+			<range>Snakeeye</range>
+		</set>
+
+		<!-- TP Sets (Low, Mid, High Accurracy)-->
+		<!-- Default set: TP-MidAcc -->
+		<!--Toggle: /acc -->
+		<set name="TP-LowAcc">
+			<head>Walahra Turban</head>
+			<body>Rapparee Harness</body>
+			<hands>Dusk Gloves</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>
+			<neck>Chivalrous Chain</neck>
+			<waist>Swift Belt</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+
+		<set name="TP-MidAcc" baseset="TP-LowAcc">
+			<body>Homam Corazza</body>
+			<neck>Peacock Charm</neck>
+			<hands>Homam Manopolas</hands>
+		</set>
+
+		<set name="TP-HighAcc" baseset="TP-MidAcc">
+			<head>Optical Hat</head>
+			<hands>War Gloves +1</hands>
+		</set>
+		
+		<!-- WS Sets -->		
+		<set name="Multi-LowAcc">
+			<head>Voyager Sallet</head>
+			<body>Dragon Harness</body>
+			<hands>Hct. Mittens +1</hands>
+			<legs>Dragon Subligar</legs>
+			<feet>Hct. Leggings</feet>
+			<neck>Spike Necklace</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Minuet Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Thunder Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+		
+		<set name="Multi-MidAcc" baseset="Multi-LowAcc">
+			<head>Voyager Sallet</head>
+			<body>Dragon Harness</body>
+			<hands>Hct. Mittens +1</hands>
+			<legs>Dragon Subligar</legs>
+			<feet>Hct. Leggings</feet>
+			<neck>Spike Necklace</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Minuet Earring</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Thunder Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+
+		<set name="Multi-HighAcc" baseset="Multi-LowAcc">
+			<head>Optical Hat</head>
+			<body>Hecatomb Harness</body>
+			<hands>Hct. Mittens +1</hands>
+			<legs>Dragon Subligar</legs>
+			<feet>Homam Gambieras</feet>
+			<neck>Spectacles</neck>
+			<waist>Potent Belt</waist>
+		</set>
+		
+		<!-- Sneak Attack (SA) Set - Stack DEX -->
+		<set name="Sneak Attack" baseset="TP">
+			<head>Assassin's Bonnet</head>
+			<body>Dragon Harness</body>
+			<hands>Hct. Mittens +1</hands>
+			<feet>Hct. Leggings</feet>
+			<legs>Dragon Subligar</legs>
+			<neck>Spike Necklace</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Minuet Earring</ear1>
+			<ear2>Intruder Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Thunder Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+		
+		<!-- Trick Attack (TA) Set - Stack AGI -->
+		<set name="Trick Attack" baseset="Sneak Attack">
+			<head>Emperor Hairpin</head>
+			<body>Dragon Harness</body>
+			<hands>Rog. Armlets +1</hands>
+			<legs>War Brais +1</legs>
+			<feet>Rog. Poulaines +1</feet>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<waist>Scouter's Rope</waist>
+			<ring1>Breeze Ring</ring1>
+			<ring2>Emerald Ring</ring2>
+			<back>Forager's Mantle</back>
+		</set>
+		
+		<!-- SATA Set - Stack DEX/AGI -->
+		<set name="SATA" baseset="Sneak Attack">
+			<head>Voyager Sallet</head>
+		</set>
+		
+		<!-- Ranged Attack Set - Stack Ranged Accuracy -->
+		<set name="Ranged">
+			<head>Optical Hat</head>
+			<body>Pln. Khazagand</body>
+			<hands>War Gloves +1</hands>
+			<legs>Pln. Seraweels</legs>
+			<feet>Homam Gambieras</feet>
+			<neck>Peacock Charm</neck>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+			<back>Amemet Mantle +1</back>
+			<waist>Precise Belt</waist>
+		</set>
+		
+		<!-- Evasion Set - Stack Evasion/AGI -->
+		<!-- Toggle: /eva -->
+		<set name="Evasion">
+			<head>Optical Hat</head>
+			<body>Scp. Harness +1</body>
+			<hands>War gloves +1</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Dance Shoes</feet>
+			<neck>Evasion Torque</neck>
+			<waist>Scouter's Rope</waist>
+			<ear1>Ethereal Earring</ear1>
+			<ear2>Dodge Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Breeze Ring</ring2>
+			<back>Boxer's Mantle</back>
+		</set>
+		
+		<!--PDT Set - Stack Physical Defense -->
+		<!--Toggle: /pdt-->
+		<set name="PDT"  baseset="Evasion">
+			<head>Darksteel Cap +1</head>
+			<hands>Dst. Mittens +1</hands>
+			<legs>Dst. Subligar +1</legs>
+			<ring1>Jelly Ring</ring1>
+		</set>
+		
+		<!-- MDT Set - Stack Magic Defense -->
+		<!-- Toggle: /mdt -->
+		<set name="MDT">
+			<back>Lamia Mantle +1</back>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+		</set>
+
+		<!-- Stack Haste -->
+		<set name="Haste">
+			<head>Walahra Turban</head>
+			<body>Rapparee Harness</body>
+			<hands>Homam Manopolas</hands>
+			<legs>Homam Cosciales</legs>
+			<feet>Homam Gambieras</feet>
+			<waist>Swift Belt</waist>
+			<ear1>Loquac. Earring</ear1>
+		</set>
+		
+		<!-- Enhances Mug & Steal -->
+		<set name="Mug">
+			<head>Assassin's Bonnet</head>
+			<legs>Assassin's Culottes</legs>
+		</set>
+		
+		<set name="Steal">
+			<head>Rogue's Bonnet</head>
+			<hands>Thief's Kote</hands>
+			<legs>Assassin's Culottes</legs>
+			<feet>Rog. Poulaines +1</feet>
+		</set>
+
+		<!-- Extends Flee & Hide duration -->
+		<set name="Flee">
+			<feet>Rog. Poulaines +1</feet>
+		</set>
+		
+		<set name="Hide">
+			<body>Rogue's Vest</body>
+		</set>
+		
+		<!-- Bolt Toggle -->
+		<!--Toggle: /bolt acid, bloody, sleep -->
+		<set name="Acid">
+			<ammo>Acid Bolt</ammo>
+		</set>
+		<set name="Bloody">
+			<ammo>Bloody Bolt</ammo>
+		</set>
+		<set name="Sleep">
+			<ammo>Sleep Bolt</ammo>
+		</set>
+		
+		<!-- Fire Bomblet Toggle -->
+		<!--Toggle: /firebomb -->
+		<set name="FireBomb">
+			<range>displaced</range>
+			<ammo>Fire Bomblet</ammo>
+		</set>
+		
+		<!-- Strider Boot Toggle -->
+		<!--Toggle: /str -->
+		<set name="Strider">
+			<feet>Strider Boots</feet>
+		</set>
+		
+		<!-- Regen Toggle -->
+		<!--Toggle: /regen -->
+		<set name="Regen">
+			<range>Snakeeye</range>
+			<ammo>displaced</ammo>
+		</set>
+		
+		<!-- Treasure Hunter Toggle -->
+		<!--Toggle: /th -->
+		<set name="TH">
+			<hands>Assassin's Armlets</hands>
+		</set>	
+	</sets>
+	
+	<init>
+        <command>/macro book 4</command>
+		<if p_subjob="NIN"><command delay="1000">/macro set 1</command></if>	
+		<if p_subjob="WAR"><command delay="1000">/macro set 2</command></if>	
+		<command>/wp</command>
+   	</init>
+	
+	<variables>
+		<var name="TH">FullTH</var>
+		<var name="Bolt">Sleep</var>
+		<var name="Bolt">Bloody</var>
+		<var name="Bolt">Acid</var>
+		<var name="Set">MidAcc</var>
+		<var name="EvasionSetActive">0</var>
+		<var name="MDTSetActive">0</var>
+		<var name="PDTSetActive">0</var>
+		<var name="wp">0</var>	
+		<var name="ranged">0</var>
+		<var name="FireBomb">false</var>
+		<var name="Regen">false</var>
+		<var name="Strider">false</var>
+	</variables>
+
+	<inputcommands>
+		<!-- Weapons Toggle -->
+		<cmd input="/wp">
+			<if advanced="$wp=0">
+				<setvar name="wp" value="1" />
+					<equip>
+						<main>Perseus's Harpe</main>
+						<sub>Thief's Knife</sub>
+					</equip>
+				<addtochat color="57">[wp:] Perseus's Harpe / Thief's Knife </addtochat>					
+			</if>
+ 			<elseif advanced="$wp=1">
+				<setvar name="wp" value="2" />
+					<equip>
+						<main>Thief's Knife</main>
+						<sub>Perseus's Harpe</sub>
+					</equip>			
+				<addtochat color="57">[wp:] Thief's Knife / Perseus's Harpe</addtochat>				
+			</elseif>		
+ 			<elseif advanced="$wp=2">
+				<setvar name="wp" value="3" />
+					<equip>
+						<main>Thief's Knife</main>
+						<sub>Tatami Shield</sub>
+					</equip>			
+				<addtochat color="57">[wp:] Thief's Knife / Tatami Shield</addtochat>				
+			</elseif>
+ 			<elseif advanced="$wp=3">
+				<setvar name="wp" value="1" />
+					<equip>
+						<main>Perseus's Harpe</main>
+						<sub>Thief's Knife</sub>
+					</equip>			
+				<addtochat color="57">[wp:] Perseus's Harpe / Thief's Knife</addtochat>				
+			</elseif>				
+		</cmd>
+		
+		<!-- Regen Toggle -->
+		<cmd input="/firebomb">
+			<if advanced="$FireBomb=false">
+				<setvar name="FireBomb" value="true" />
+					<addtochat color="57">Fire Bomblet: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="FireBomb" value="false" />
+					<addtochat color="57">Fire Bomblet: Off.</addtochat>
+			</else> 
+		</cmd>
+		
+		<!-- Bolts Toggle -->
+		<cmd input="/bolt ">
+            <setvar name="Bolt" value="%arg1" />
+            <addtochat color="159">$Bolt bolt - on</addtochat>
+            <doidlegear />
+		</cmd>
+		
+		<!-- TP Sets Toggle -->
+		<cmd input="/acc">
+			<if advanced="$Set=LowAcc">
+				<setvar name="Set" value="MidAcc" />
+				<addtochat color="57">Mid Accuacy</addtochat>
+			</if>
+			<elseif advanced="$Set=MidAcc">
+				<setvar name="Set" value="HighAcc" />
+				<addtochat color="57">High accuracy</addtochat>
+			</elseif>
+			<elseif>
+				<setvar name="Set" value="LowAcc" />
+				<addtochat color="57">Low accuracy</addtochat>
+			</elseif>
+		</cmd>		
+		
+		<!-- Evasion Toggle -->
+		<cmd input="/eva">
+			<setvar name="MDTSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+			<if advanced="$EvasionSetActive=0">
+				<setvar name="EvasionSetActive" value="1" />
+				<addtochat color="57">Evasion set enabled.</addtochat>
+			</if>
+			<else>
+				<setvar name="EvasionSetActive" value="0" />
+				<addtochat color="57">Evasion set disabled.</addtochat>
+			</else>
+		</cmd>
+		
+		<!-- MDT Toggle -->
+		<cmd input="/mdt">
+			<setvar name="EvasionSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+
+			<if advanced="$MDTSetActive=0">
+				<setvar name="MDTSetActive" value="1" />
+				<addtochat color="57">MDT set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="MDTSetActive" value="0" />
+				<addtochat color="57">MDT set disabled.</addtochat>
+			</else>
+		</cmd>
+		
+		<!-- PDT Toggle -->
+		<cmd input="/pdt">
+			<setvar name="EvasionSetActive" value="0" />
+			<setvar name="MDTSetActive" value="0" />
+
+			<if advanced="$PDTSetActive=0">
+				<setvar name="PDTSetActive" value="1" />
+				<addtochat color="57">PDT set enabled.</addtochat>
+			</if>
+			<else>
+				<setvar name="PDTSetActive" value="0" />
+				<addtochat color="57">PDT set disabled.</addtochat>
+			</else>
+		</cmd>
+		
+		<!-- Strider Boot Toggle -->
+		<cmd input="/str">
+			<if advanced="$Strider=false">
+				<setvar name="Strider" value="true" />
+					<addtochat color="57">Strider Boots: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="Strider" value="false" />
+					<addtochat color="57">Strider Boots: Off.</addtochat>
+			</else> 
+		</cmd>
+		
+		<!-- Regen Toggle -->
+		<cmd input="/regen">
+			<if advanced="$Regen=false">
+				<setvar name="Regen" value="true" />
+					<addtochat color="57">Regen: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="Regen" value="false" />
+					<addtochat color="57">Regen: Off.</addtochat>
+			</else> 
+		</cmd>
+		
+		<!-- Treasure Hunter Toggle -->
+		<cmd input="/TH">
+			<if advanced="$TH=NoTH">
+				<setvar name="TH" value="FullTH" />
+				<addtochat color="57">TH: Locked</addtochat>
+			</if>
+			<elseif advanced="$TH=FullTH">
+				<setvar name="TH" value="NoTH" />
+				<addtochat color="57">TH: Off</addtochat>
+			</elseif>
+		</cmd>
+	</inputcommands>
+
+	<idlegear>
+		<if p_status="idle">
+           <equip set="idle" />
+				<if advanced="$Bolt=Sleep">
+					<equip set="Sleep"  />
+				</if>
+				<elseif advanced="$Bolt=Acid">
+					<equip set="Acid"  />
+				</elseif>
+				<elseif advanced="$Bolt=Bloody">
+					<equip set="Bloody"  />
+				</elseif>		
+				<if advanced="$TH=FullTH"> 
+					<equip>
+						<hands>Assassin's Armlets</hands>
+					</equip>
+				</if>
+        </if>
+		<if advanced="%p_tp=>=100">
+			<equip lock="true">
+				<main>%eq_main</main>
+				<sub>%eq_sub</sub>
+				<range>%eq_range</range>
+			</equip>
+        </if>
+		<if p_status="resting">
+			<equip set="Resting" />
+		</if>
+		<if p_status="engaged">
+			<equip set="TP-$Set" />	
+				<if advanced="$Bolt=Sleep">
+					<equip set="Sleep"  />
+				</if>
+				<elseif advanced="$Bolt=Acid">
+					<equip set="Acid"  />
+				</elseif>
+				<elseif advanced="$Bolt=Bloody">
+					<equip set="Bloody"  />
+				</elseif>	
+				<if advanced="$TH=FullTH"> 
+					<equip>
+						<hands>Assassin's Armlets</hands>
+					</equip>
+				</if>
+		</if>
+		<if advanced="$Regen=true"> 
+            <equip set="Regen" lock="true" />
+        </if>
+		<if advanced="$FireBomb=true"> 
+            <equip set="FireBomb" lock="true" />
+        </if>
+		<if advanced="$EvasionSetActive=1">
+			<equip set="Evasion" />
+		</if>
+		<if advanced="$MDTSetActive=1">
+			<equip set="MDT" />
+				<if p_ismoving="True">
+			</if>
+		</if>
+		<if advanced="$PDTSetActive=1">
+			<equip set="PDT" />
+				<if p_ismoving="True">	
+			</if>
+		</if>
+		<if advanced="$Strider=true"> 
+            <equip set="Strider" lock="true" />
+        </if>
+		<if p_status="engaged">
+			<equip set="TP-$Set" />
+				<if advanced="$EvasionSetActive=1">
+					<equip set="Evasion" />
+				</if>	
+				<if advanced="$TH=FullTH"> 
+					<equip>
+						<hands>Assassin's Armlets</hands>
+					</equip>
+				</if>
+		</if>
+		<if buffactive="Sneak Attack">
+			<equip set="Sneak Attack" />		
+				<if advanced="$TH=FullTH"> 
+					<equip>
+						<hands>Assassin's Armlets</hands>
+					</equip>
+				</if>
+		</if>
+		<if buffactive="Trick Attack">
+			<equip set="Trick Attack" />		
+				<if advanced="$TH=FullTH"> 
+					<equip>
+						<hands>Assassin's Armlets</hands>
+					</equip>
+				</if>
+		</if>
+		<if buffactive="Sneak Attack&Trick Attack">
+			<equip set="SATA" />		
+				<if advanced="$TH=FullTH"> 
+					<equip>
+						<hands>Assassin's Armlets</hands>
+					</equip>
+				</if>
+		</if>
+		<if eq_ring2="Emperor Band">
+            <equip lock="true">
+                <ring2>Emperor Band</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Tavnazian Ring">
+            <equip lock="true">
+                <ring2>Tavnazian Ring</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Homing Ring">
+            <equip lock="true">
+                <ring2>Homing Ring</ring2>
+            </equip>
+        </if>
+		<if e_area="Ru'Lude Gardens|Upper Jeuno|Lower Jeuno|Port Jeuno|Aht Urhgan Whitegate|Al Zahbi|Nashmau|Mhaura|Selbina|Norg|Kazham|Rabao">
+            <equip set="Town"  />
+        </if>
+        <if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<equip set="Town"  />
+        </if>
+        <if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip set="Town">
+				<body>Kingdom Aketon</body>
+			</equip>
+        </if>
+        <if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+            <equip set="Town"  />
+        </if>
+	</idlegear>
+
+	<preranged>
+			<if advanced="%p_tp=>=100">
+				<equip lock="true">
+					<main>%eq_main</main>
+					<sub>%eq_sub</sub>
+					<range>%eq_range</range>
+				</equip>
+			</if>
+		<if advanced="%p_tp=>=100">
+			<equip lock="true">
+				<main>%eq_main</main>
+				<sub>%eq_sub</sub>
+				<range>%eq_range</range>
+			</equip>
+        </if>
+		<equip set="Ranged" />				
+		<if advanced="$TH=FullTH"> 
+			<equip>
+				<hands>Assassin's Armlets</hands>
+			</equip>
+		</if>
+	</preranged>
+
+	<premagic>
+		<equip set="Haste" />	
+			<if ad_name="Utsusemi*|Monomi*|Tonko*">
+				<equip set="Haste" />
+			</if>
+			<!--if advanced="$TH=FullTH"> 
+				<equip>
+					<hands>Assassin's Armlets</hands>
+				</equip>
+			</if-->
+	</premagic>
+
+	<midmagic>
+		<equip set="Haste" />
+			<if ad_name="Utsusemi*|Monomi*|Tonko*">
+				<equip set="Haste" />
+			</if>	
+			<!--if advanced="$TH=FullTH"> 
+				<equip>
+					<hands>Assassin's Armlets</hands>
+				</equip>
+			</if-->
+	</midmagic>
+
+	<jobability>                           
+		<if ad_name="Flee|Hide|Steal|Mug">
+			<equip set="%ad_name" />
+		</if>
+	</jobability>
+
+	<weaponskill>
+		<if ad_name="Dancing Edge|Evisceration">
+			<equip set="Multi-MidAcc">
+				<neck>Soil Gorget</neck>
+			</equip>
+		</if>
+		<elseif ad_name="Shark Bite">
+			<equip set="Multi-LowAcc">
+				<neck>Breeze Gorget</neck>
+			</equip>
+		</elseif>
+		<elseif ad_name="Mandalic Stab">
+			<equip set="Multi-LowAcc">
+				<neck>Light Gorget</neck>
+			</equip>
+		</elseif>
+		<else>
+			<equip set="Multi-$Set" />
+		</else>		
+		<if advanced="$TH=FullTH"> 
+			<equip>
+				<hands>Assassin's Armlets</hands>
+			</equip>
+		</if>
+	</weaponskill>
+</ashitacast>

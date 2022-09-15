@@ -1,0 +1,525 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(Idle/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>true</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: FALSE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: FALSE -->
+	</settings>
+	<sets>
+		<set name="Idle">
+			<main>Hagunro</main>
+			<sub>Pole Grip</sub>
+			<head>Arh. Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Sao. Sune-Ate +1</feet>
+			<back>Forager's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Orochi Nodowa</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<range>displaced</range>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- Town Gear - To make you look fabulous! -->
+		<set name="Town" baseset="Idle">
+			<head>Gala Corsage</head>
+			<body>Askar Korazin</body>
+		</set>
+		
+		
+		<!-- *TP Sets* -->
+		<!-- TP Set (Base) -->
+		<set name="TP-Base">
+			<main>Hagun</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Haubergeon +1</body>
+			<!--body>Askar Korazin</body-->
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Speed Belt</waist>
+			<back>Forager's Mantle</back>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- TP Set (Higher Accuracy & No Dusk) -->
+		<!-- Recommended for Kirin / High Evasion mobs -->
+		<set name="TP-Acc">
+			<main>Hagun</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Haubergeon +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Speed Belt</waist>
+			<back>Forager's Mantle</back>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- TP Set (Store TP) -->
+		<set name="TP-STP">
+			<main>Hagun</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Askar Korazin</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Forager's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Chivalrous Chain</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- TP Set - (Stacking Haste) while using Food: Carbonara -->
+		<set name="TP-Carb">
+			<main>Hagun</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Askar Korazin</body>
+			<hands>Dusk Gloves</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Forager's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- TP Set (SAM/RNG using Soboro Sukehiro) -->
+		<set name="TP-Soboro">
+			<main>Soboro Sukehiro</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Haubergeon +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Forager's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+		</set>
+		
+		<!-- TP Set - (Using Polearm) -->
+		<set name="TP-Polearm">
+			<main>Engetsuto</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Haubergeon +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Forager's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Fowling Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- TP Set - (/DRG with Wvyern Earring) -->
+		<set name="TP-HasteDRG">
+			<main>Hagun</main>
+			<sub>Pole Grip</sub>
+			<head>Walahra Turban</head>
+			<body>Haubergeon +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Forager's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Wyvern Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		
+		<!-- *WS Sets* -->
+		<set name="Gekko">
+			<head>Shr.Znr.Kabuto</head>
+			<body>Kirin's Osode</body>
+			<hands>Alkyoneus's Brc.</hands>
+			<legs>Shura Haidate</legs>
+			<feet>Sao. Sune-Ate +1</feet>
+			<back>Forager's Mantle</back>
+			<waist>Warwolf Belt</waist>
+			<neck>Snow Gorget</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Mille. Sachet</ammo>
+		</set>
+		
+		<set name="Kasha">
+			<head>Shr.Znr.Kabuto</head>
+			<body>Kirin's Osode</body>
+			<hands>Alkyoneus's Brc.</hands>
+			<legs>Shura Haidate</legs>
+			<feet>Sao. Sune-Ate +1</feet>
+			<back>Forager's Mantle</back>
+			<waist>Warwolf Belt</waist>
+			<neck>Light Gorget</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+
+		<set name="Yukikaze">
+			<head>Shr.Znr.Kabuto</head>
+			<body>Kirin's Osode</body>
+			<hands>Alkyoneus's Brc.</hands>
+			<legs>Shura Haidate</legs>
+			<feet>Sao. Sune-Ate +1</feet>
+			<back>Forager's Mantle</back>
+			<waist>Warwolf Belt</waist>
+			<neck>Snow Gorget</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+
+		<set name="Rana">
+			<head>Shr.Znr.Kabuto</head>
+			<body>Haubergeon +1</body>
+			<hands>Bandomusha Kote</hands>
+			<legs>Shura Haidate</legs>
+			<feet>Sao. Sune-Ate +1</feet>
+			<back>Forager's Mantle</back>
+			<waist>Potent Belt</waist>
+			<neck>Snow Gorget</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Flame Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Mille. Sachet</ammo>
+		</set>
+
+		<set name="Penta Thrust">
+			<head>Optical Hat</head>
+			<body>Haubergeon +1</body>
+			<hands>Bandomusha Kote</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Sao. Sune-Ate +1</feet>
+			<back>Forager's Mantle</back>
+			<waist>Sao. Koshi-Ate</waist>
+			<!--waist>Potent Belt</waist-->
+			<neck>Peacock Charm</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Fowling Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<set name="Sidewinder">
+			<head>Optical Hat</head>
+			<body>Hachiman Domaru</body>
+			<hands>Seiryu's Kote</hands>
+			<legs>Shura Haidate</legs>
+			<feet>Hmn. Sune-Ate</feet>
+			<back>Amemet Mantle +1</back>
+			<waist>Sao. Koshi-Ate</waist>
+			<!--waist>Precise Belt</waist-->
+			<neck>Peacock Charm</neck>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+		</set>
+		
+		<!-- Ranged Set - (Ranged Accuracy / Barrage) -->
+		<set name="Ranged-Accuracy">
+			<head>Optical Hat</head>
+			<body>Kirin's Osode</body>
+			<hands>Seiryu's Kote</hands>
+			<legs>Shura Haidate</legs>
+			<feet>Leaping Boots</feet>
+			<back>Amemet Mantle +1</back>
+			<waist>Precise Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Suppanomimi</ear1>
+			<ear2>Intruder Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+		</set>
+		
+		<!-- PDT Set - Stack Physical Defense -->
+		<!-- Toggle: /pdt -->
+		<set name="PDT">
+			<head>Arh. Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Gavial Cuisses</legs>
+			<feet>Gavial Greaves</feet>
+			<back>Boxer's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<ammo>Tiphia Sting</ammo>
+		</set>
+		
+		<!-- MDT Set - Stack Magic Defense -->
+		<!-- Toggle: /mdt -->
+		<set name="MDT">
+			<head>Coral Visor +1</head>
+			<body>Cor. Scale Mail +1</body>
+			<hands>Gavial Fng. Gnt.</hands>
+			<legs>Coral Cuisses +1</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Lamia Mantle +1</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Merman's Ring</ring1>
+			<ring2>Merman's Ring</ring2>
+		</set>
+		
+		<set name="Haste">
+			<head>Walahra Turban</head>
+			<hands>Dusk Gloves</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<Ear1>Loquac. Earring</Ear1>
+			<waist>Speed Belt</waist>
+		</set>
+		
+		<!-- Reraise Hairpin Toggle -->
+		<!-- Toggle: /rr -->
+		<set name="RR">
+            <head>Reraise Hairpin</head>
+		</set>
+	</sets>
+	
+	<init>
+        <command>/macro book 2</command>
+			<if p_subjob="WAR"><command delay="500">/macro set 1</command></if>
+			<if p_subjob="NIN"><command delay="500">/macro set 2</command></if>	
+			<if p_subjob="THF"><command delay="500">/macro set 3</command></if>
+			<if p_subjob="RNG"><command delay="500">/macro set 4</command></if>
+			<if p_subjob="DRG"><command delay="500">/macro set 5</command></if>
+	</init>
+	
+	<variables>
+		<var name="Set">HasteDRG</var>
+		<var name="Set">Polearm</var>
+		<var name="Set">Soboro</var>
+		<var name="Set">Carb</var>
+		<var name="Set">STP</var>
+		<var name="Set">Acc</var>
+		<var name="Set">Base</var>
+		<var name="SetBA">Base*</var>
+		<var name="PDT">false</var>
+	    <var name="MDT">false</var>
+		<var name="HighAtkKaiten">false</var>
+		<var name="RR">false</var>
+	</variables>
+	
+	<inputcommands>
+		<cmd input="/set ">
+            <setvar name="Set" value="%arg1" />
+            <addtochat color="159">(Aftermath) TP Set: $Set</addtochat>
+            <doidlegear />
+		</cmd>
+	    <cmd input="/pdt">
+			<if advanced="$PDT=false">
+				<setvar name="PDT" value="true" />
+				<setvar name="MDT" value="false" />
+					<addtochat color="57">PDT: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="PDT" value="false" />
+					<addtochat color="57">PDT: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/mdt">
+			<if advanced="$MDT=false">
+				<setvar name="MDT" value="true" />
+				<setvar name="PDT" value="false" />
+					<addtochat color="57">MDT: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="MDT" value="false" />
+					<addtochat color="57">MDT: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/RR">
+			<if advanced="$RR=false">
+				<setvar name="RR" value="true" />
+					<addtochat color="57">RR: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="RR" value="false" />
+					<addtochat color="57">RR: Off.</addtochat>
+			</else> 
+		</cmd>
+	</inputcommands>
+	
+	<idlegear>
+		<if p_status="idle">
+			<equip set="Idle" />
+		</if>
+		<if p_status="engaged">
+			<equip set="TP-$Set" />
+		</if>
+		<if advanced="$PDT=true"> 
+			<equip set="PDT" />   
+		</if>			
+		<if advanced="$MDT=true"> 
+			<equip set="MDT" /> 
+		</if>
+		<if eq_ring2="Emperor Band">
+			<equip lock="true">
+				<ring2>Emperor Band</ring2>
+			</equip>
+		</if>
+		<if eq_ring2="Tavnazian Ring">
+			<equip lock="true">
+				<ring2>Tavnazian Ring</ring2>
+			</equip>
+		</if>
+		<if eq_ring2="Homing Ring">
+			<equip lock="true">
+				<ring2>Homing Ring</ring2>
+			</equip>
+		</if>
+		<if e_area="Ru'Lude Gardens|Upper Jeuno|Lower Jeuno|Port Jeuno|Aht Urhgan Whitegate|Al Zahbi|Nashmau|Mhaura|Selbina|Norg|Kazham|Rabao|Tavnazian Safehold">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<equip set="Town" />
+				<!--body>Republic Aketon</body-->
+			</equip>
+        </if>
+		<if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip set="Town">
+				<body>Kingdom Aketon</body>
+			</equip>
+        </if>
+		<if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+			<equip set="Town" />
+				<!-->body>Federation Aketon</body-->>
+			</equip>
+        </if>
+		<if advanced="$RR=true"> 
+            <equip set="RR" lock="true" />
+        </if>
+		
+	</idlegear>
+	
+	<premagic>
+		<if ad_skill="ninjutsu">
+            <equip set="Haste" />
+        </if>
+	</premagic>
+	
+	<midmagic>
+	</midmagic>
+	
+	<preranged>
+        <equip set="Ranged-Accuracy" />
+			<if e_time=">18.00|<6.00">
+				<equip>
+					<ear2>Fenrir's Earring</ear2>
+				</equip>
+			</if>
+    </preranged>
+	<midranged>
+        <equip set="Ranged-Accuracy" />
+			<if e_time=">18.00|<6.00">
+				<equip>
+					<ear2>Fenrir's Earring</ear2>
+				</equip>
+			</if>
+    </midranged>
+	
+	<jobability>
+		<if ad_name="Jump">
+			<equip set="TP-STP" />
+		</if>
+		<if ad_name="Warding Circle">
+			<equip>
+				<head>Myn. Kabuto +1</head>
+			</equip>
+		</if>
+		<if ad_name="Meditate">
+			<equip>
+				<head>Myn. Kabuto +1</head>
+				<hands>Saotome Kote</hands>
+			</equip>
+		</if>
+	</jobability>
+	
+	<weaponskill>
+		<if ad_name="*Gekko">
+			<equip set="Gekko" />
+		</if>
+		<elseif ad_name="*Kasha">
+			<equip set="Kasha" />
+		</elseif>
+		<elseif ad_name="*Yukikaze">
+			<equip set="Yukikaze" />
+		</elseif>
+		<elseif ad_name="*Rana">
+			<equip set="Rana" />
+		</elseif>
+		<elseif ad_name="Penta Thrust">
+			<equip set="Penta Thrust" />
+		</elseif>
+		<elseif ad_name="Sidewinder">
+			<equip set="Sidewinder" />
+				<if e_time=">18.00|<6.00">
+					<equip>
+						<ear2>Fenrir's Earring</ear2>
+					</equip>
+				</if>
+		</elseif>
+		<if buffactive="Meikyo Shisui|Sekkanoki">
+            <equip>
+				<head>Hachiman Jinpachi</head>
+            </equip>
+        </if>
+	</weaponskill>
+</ashitacast>

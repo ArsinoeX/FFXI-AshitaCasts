@@ -1,0 +1,429 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(Idle/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>true</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: FALSE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: FALSE -->
+	</settings>
+	
+	<!--Sets for SAM/RNG using Soboro Sukehiro-->
+	<sets>
+		<set name="Idle">
+			<head>Gala Corsage</head>
+			<body>Shm. Hara-Ate</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Amemet Mantle +1</back>
+			<waist>Speed Belt</waist>
+			<neck>Peacock Charm</neck>
+			<ear1>Spike Earring</ear1>
+			<ear2>Spike Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<set name="Town" baseset="Idle">
+		</set>
+		
+		<!--TP Set (Level 50 Sync)-->
+		<set name="50">
+			<head>Voyager Sallet</head>
+			<body>Shm. Hara-Ate</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Swift Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Beetle Earring +1</ear1>
+			<ear2>Beetle Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Sniper's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Level 55 Sync)-->
+		<set name="55">
+			<head>Voyager Sallet</head>
+			<body>Shm. Hara-Ate</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Speed Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Spike Earring</ear1>
+			<ear2>Spike Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Sniper's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Level 57 Sync)-->
+		<set name="57">
+			<head>Voyager Sallet</head>
+			<body>Scp. Harness +1</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Speed Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Spike Earring</ear1>
+			<ear2>Spike Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Level 59 Sync)-->
+		<set name="59">
+			<head>Voyager Sallet</head>
+			<body>Haubergeon +1</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Speed Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Spike Earring</ear1>
+			<ear2>Spike Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Level 60-64 Sync)-->
+		<set name="60-64">
+			<head>Voyager Sallet</head>
+			<body>Haubergeon +1</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Speed Belt</waist>
+			<back>Amemet Mantle +1</back>
+			<ear1>Spike Earring</ear1>
+			<ear2>Spike Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<!--TP Set (Ranged Attack & Barrage)-->
+		<set name="Ranged-Accuracy">
+			<head>Emperor Hairpin</head>
+			<body>Jaridah Peti</body>
+			<hands>Custom F Gloves</hands>
+			<legs>Jaridah Salvars</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Precise Belt</waist>
+			<back>Amemet Mantle +1</back>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<ring1>Scorpion Ring +1</ring1>
+			<ring2>Scorpion Ring +1</ring2>
+		</set>
+		
+		<!--WS-->
+		<set name="WS">
+			<head>Voyager Sallet</head>
+			<body>Shm. Hara-Ate</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Spike Necklace</neck>
+			<waist>Life Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Beetle Earring +1</ear1>
+			<ear2>Beetle Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Courage Ring</ring2>
+		</set>
+		
+		<!--Sidewinder (Level 55-59)-->
+		<set name="SW-LO">
+			<head>Voyager Sallet</head>
+			<body>Jaridah Peti</body>
+			<hands>Custom F Gloves</hands>
+			<legs>Jaridah Salvars</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Peacock Charm</neck>
+			<waist>R.K. Belt +2</waist>
+			<back>Nomad's Mantle +1</back>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<ring1>Scorpion Ring +1</ring1>
+			<ring2>Scorpion Ring +1</ring2>
+		</set>
+		
+		<!--Sidewinder (Level 60+)-->
+		<set name="SW-HI">
+			<head>Voyager Sallet</head>
+			<body>Jaridah Peti</body>
+			<hands>Custom F Gloves</hands>
+			<legs>Jaridah Salvars</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Precise Belt</waist>
+			<back>Amemet Mantle +1</back>
+			<ear1>Drone Earring</ear1>
+			<ear2>Drone Earring</ear2>
+			<ring1>Scorpion Ring +1</ring1>
+			<ring2>Scorpion Ring +1</ring2>
+		</set>
+		
+		<!--Penta Thrust (Level 54-56)-->
+		<set name="PT-LO">
+			<head>Voyager Sallet</head>
+			<body>Jaridah Peti</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Life Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Beetle Earring +1</ear1>
+			<ear2>Beetle Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Sniper's Ring</ring2>
+		</set>
+		
+		<!--Penta Thrust (Level 57+)-->
+		<set name="PT-HI">
+			<head>Voyager Sallet</head>
+			<body>Scp. Harness +1</body>
+			<hands>Ochiudo's Kote</hands>
+			<legs>Shm. Haidate</legs>
+			<feet>Leaping Boots</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Life Belt</waist>
+			<back>Jaguar Mantle</back>
+			<ear1>Spike Earring</ear1>
+			<ear2>Spike Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Toreador's Ring</ring2>
+		</set>
+		
+		<!--set name="PDT">
+			<head>Arh. Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Hachiman Kote +1</hands>
+			<legs>Gavial Cuisses</legs>
+			<feet>Gavial Greaves</feet>
+			<back>Boxer's Mantle</back>
+			<waist>Speed Belt</waist>
+			<neck>Evasion Torque</neck>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Fowling Earring</ear2>
+			<ring1>Jelly Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+		</set-->
+		
+		<!--set name="MDT">
+			<head>Arh. Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Gavial Fng. Gnt.</hands>
+			<legs>Byakko's Haidate</legs>
+			<feet>Fuma Kyahan</feet>
+			<back>Lamia Mantle +1</back>
+			<waist>Speed Belt</waist>
+			<neck>Evasion Torque</neck>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Toreador's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+		</set-->
+		
+		<set name="Haste">
+			<feet>Fuma Kyahan</feet>
+			<waist>Speed Belt</waist>
+		</set>
+		
+		<set name="RR">
+            <head>Reraise Hairpin</head>
+		</set>
+	</sets>
+	
+	<init>
+        <command>/macro book 2</command>
+			<if p_subjob="WAR"><command delay="500">/macro set 1</command></if>
+			<if p_subjob="NIN"><command delay="500">/macro set 2</command></if>	
+			<if p_subjob="THF"><command delay="500">/macro set 3</command></if>
+			<if p_subjob="RNG"><command delay="500">/macro set 4</command></if>
+	</init>
+	
+	<variables>
+		<var name="PDT">false</var>
+	    <var name="MDT">false</var>
+		<var name="RR">false</var>
+	</variables>
+	
+	<inputcommands>
+	    <cmd input="/pdt">
+			<if advanced="$PDT=false">
+				<setvar name="PDT" value="true" />
+				<setvar name="MDT" value="false" />
+					<addtochat color="57">PDT: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="PDT" value="false" />
+					<addtochat color="57">PDT: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/mdt">
+			<if advanced="$MDT=false">
+				<setvar name="MDT" value="true" />
+				<setvar name="PDT" value="false" />
+					<addtochat color="57">MDT: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="MDT" value="false" />
+					<addtochat color="57">MDT: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/RR">
+			<if advanced="$RR=false">
+				<setvar name="RR" value="true" />
+					<addtochat color="57">RR: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="RR" value="false" />
+					<addtochat color="57">RR: Off.</addtochat>
+			</else> 
+		</cmd>
+	</inputcommands>
+	
+	<idlegear>
+		<if p_status="idle">
+			<equip set="Idle" />
+				<if p_joblevel="50">
+					<equip set="50" />
+				</if>
+				<if p_joblevel="<57&>54">
+					<equip set="55" />
+				</if>
+				<if p_joblevel="<59&>56">
+					<equip set="57" />
+				</if>
+				<if p_joblevel="59">
+					<equip set="59" />
+				</if>
+				<if p_joblevel=">59">
+					<equip set="60-64" />
+				</if>
+		</if>
+		<if p_status="engaged">
+			<equip set="55" />
+				<if p_joblevel="<55&>49">
+					<equip set="50" />
+				</if>
+				<if p_joblevel="<57&>54">
+					<equip set="55" />
+				</if>
+				<if p_joblevel="<59&>56">
+					<equip set="57" />
+				</if>
+				<if p_joblevel="59">
+					<equip set="59" />
+				</if>
+				<if p_joblevel=">59">
+					<equip set="60-64" />
+				</if>
+				<!--if e_time=">6.00|<18.00">
+					<equip>
+						<ear2>Fenrir's Earring</ear2>
+					</equip>
+				</if-->
+			</if>
+		<if p_status="resting">
+			<equip>
+				<neck>Orochi Nodowa</neck>
+			</equip>
+		</if>
+		<if advanced="$PDT=true"> 
+			<equip set="PDT" />   
+		</if>			
+		<if advanced="$MDT=true"> 
+			<equip set="MDT" /> 
+		</if>
+		<if eq_ring2="Empress Band">
+			<equip lock="true">
+				<ring2>Empress Band</ring2>
+			</equip>
+		</if>
+		<if eq_ring2="Anniversary Ring">
+			<equip lock="true">
+				<ring2>Anniversary Ring</ring2>
+			</equip>
+		</if>
+		<if eq_ring2="Tavnazian Ring">
+			<equip lock="true">
+				<ring2>Tavnazian Ring</ring2>
+			</equip>
+		</if>
+		<if eq_ring2="Homing Ring">
+			<equip lock="true">
+				<ring2>Homing Ring</ring2>
+			</equip>
+		</if>
+		<if e_area="Ru'Lude Gardens|Upper Jeuno|Lower Jeuno|Port Jeuno|Aht Urhgan Whitegate|Al Zahbi|Nashmau|Mhaura|Selbina|Norg|Kazham|Rabao">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<equip set="Town">
+				<body>Republic Aketon</body>
+			</equip>
+        </if>
+		<if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip set="Town">
+				<!--body>Kingdom Aketon</body-->
+			</equip>
+        </if>
+		<if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+			<equip set="Town"  />
+        </if>
+		<if advanced="$RR=true"> 
+            <equip set="RR" lock="true" />
+        </if>
+	</idlegear>
+	
+	<premagic>
+		<if ad_skill="ninjutsu">
+            <equip set="Haste" />
+        </if>
+	</premagic>
+	
+	<midmagic>
+	</midmagic>
+	
+	<preranged>
+        <equip set="Ranged-Accuracy" />
+    </preranged>
+	
+	<midranged>
+        <equip set="Ranged-Accuracy" />
+    </midranged>
+	
+	<jobability>
+		<if ad_name="Meditate">
+		</if>
+	</jobability>
+	
+	<weaponskill>
+		<equip set="WS" />
+		<if ad_name="Sidewinder">
+				<if p_joblevel="<59&>54"><equip set="SW-LO" />
+				<gearlock length="2" />
+				</if>
+				<if p_joblevel=">59"><equip set="SW-HI" />
+				<gearlock length="2" />
+				</if>
+		</if>
+		<elseif ad_name="Penta Thrust">
+				<if p_joblevel="<57"><equip set="PT-LO" />
+				<gearlock length="2" />
+				</if>
+				<if p_joblevel=">56"><equip set="PT-HI" />
+				<gearlock length="2" />
+				</if>
+		</elseif>
+	</weaponskill>
+</ashitacast>

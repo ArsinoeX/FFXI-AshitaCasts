@@ -8,18 +8,19 @@
 
 	<sets>
 		<set name="Idle">
-			<head>Opo-opo Crown</head>
+			<head>Maat's Cap</head>
 			<body>Homam Corazza</body>
 			<hands>Assassin's Armlets</hands>
 			<legs>Homam Cosciales</legs>
-			<feet>Homam Gambieras</feet>	
-			<neck>Peacock Charm</neck>
+			<feet>Strider Boots</feet>
+			<!--feet>Homam Gambieras</feet-->	
+			<neck>Orochi Nodowa</neck>
 			<waist>Scouter's Rope</waist>
 			<ear1>Ethereal Earring</ear1>
 			<rear>Brutal Earring</rear>
 			<ring1>Jelly Ring</ring1>
 			<ring2>Rajas Ring</ring2>
-			<back>Amemet Mantle +1</back>
+			<back>Assassin's Cape</back>
 			<range>Leo Crossbow +1</range>
 		</set>
 		
@@ -31,6 +32,7 @@
 
 		<set name="Resting">
 			<body>Pln. Khazagand</body>
+			<neck>Orochi Nodowa</neck>
 			<range>Snakeeye</range>
 		</set>
 
@@ -44,7 +46,7 @@
 			<legs>Homam Cosciales</legs>
 			<feet>Homam Gambieras</feet>
 			<neck>Chivalrous Chain</neck>
-			<waist>Swift Belt</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Merman's Earring</ear1>
 			<ear2>Brutal Earring</ear2>
 			<ring1>Rajas Ring</ring1>
@@ -65,7 +67,7 @@
 		
 		<!-- WS Sets -->		
 		<set name="Multi-LowAcc">
-			<head>Voyager Sallet</head>
+			<head>Maat's Cap</head>
 			<body>Dragon Harness</body>
 			<hands>Hct. Mittens +1</hands>
 			<legs>Dragon Subligar</legs>
@@ -80,7 +82,7 @@
 		</set>
 		
 		<set name="Multi-MidAcc" baseset="Multi-LowAcc">
-			<head>Voyager Sallet</head>
+			<head>Maat's Cap</head>
 			<body>Dragon Harness</body>
 			<hands>Hct. Mittens +1</hands>
 			<legs>Dragon Subligar</legs>
@@ -100,13 +102,13 @@
 			<hands>Hct. Mittens +1</hands>
 			<legs>Dragon Subligar</legs>
 			<feet>Homam Gambieras</feet>
-			<neck>Spectacles</neck>
+			<neck>Peacock Charm</neck>
 			<waist>Potent Belt</waist>
 		</set>
 		
 		<!-- Sneak Attack (SA) Set - Stack DEX -->
 		<set name="Sneak Attack" baseset="TP">
-			<head>Assassin's Bonnet</head>
+			<head>Maat's Cap</head>
 			<body>Dragon Harness</body>
 			<hands>Hct. Mittens +1</hands>
 			<feet>Hct. Leggings</feet>
@@ -117,27 +119,29 @@
 			<ear2>Intruder Earring</ear2>
 			<ring1>Rajas Ring</ring1>
 			<ring2>Thunder Ring</ring2>
-			<back>Forager's Mantle</back>
+			<back>Assassin's Cape</back>
 		</set>
 		
 		<!-- Trick Attack (TA) Set - Stack AGI -->
 		<set name="Trick Attack" baseset="Sneak Attack">
-			<head>Emperor Hairpin</head>
+			<head>Maat's Cap</head>
 			<body>Dragon Harness</body>
 			<hands>Rog. Armlets +1</hands>
 			<legs>War Brais +1</legs>
 			<feet>Rog. Poulaines +1</feet>
+			<neck>Hope Torque</neck>
+			<waist>Scouter's Rope</waist>
 			<ear1>Drone Earring</ear1>
 			<ear2>Drone Earring</ear2>
-			<waist>Scouter's Rope</waist>
 			<ring1>Breeze Ring</ring1>
 			<ring2>Emerald Ring</ring2>
-			<back>Forager's Mantle</back>
+			<back>Assassin's Cape</back>
 		</set>
 		
 		<!-- SATA Set - Stack DEX/AGI -->
 		<set name="SATA" baseset="Sneak Attack">
-			<head>Voyager Sallet</head>
+			<head>Maat's Cap</head>
+			<back>Assassin's Cape</back>
 		</set>
 		
 		<!-- Ranged Attack Set - Stack Ranged Accuracy -->
@@ -148,12 +152,12 @@
 			<legs>Pln. Seraweels</legs>
 			<feet>Homam Gambieras</feet>
 			<neck>Peacock Charm</neck>
+			<waist>Precise Belt</waist>
 			<ear1>Drone Earring</ear1>
 			<ear2>Drone Earring</ear2>
 			<ring1>Merman's Ring</ring1>
 			<ring2>Merman's Ring</ring2>
 			<back>Amemet Mantle +1</back>
-			<waist>Precise Belt</waist>
 		</set>
 		
 		<!-- Evasion Set - Stack Evasion/AGI -->
@@ -177,6 +181,7 @@
 		<!--Toggle: /pdt-->
 		<set name="PDT"  baseset="Evasion">
 			<head>Darksteel Cap +1</head>
+			<body>Dst. Harness +1</body>
 			<hands>Dst. Mittens +1</hands>
 			<legs>Dst. Subligar +1</legs>
 			<ring1>Jelly Ring</ring1>
@@ -199,7 +204,7 @@
 			<hands>Homam Manopolas</hands>
 			<legs>Homam Cosciales</legs>
 			<feet>Homam Gambieras</feet>
-			<waist>Swift Belt</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Loquac. Earring</ear1>
 		</set>
 		
@@ -255,13 +260,19 @@
 		<set name="Regen">
 			<range>Snakeeye</range>
 			<ammo>displaced</ammo>
+			<hands>Garden Bangles</hands>
+			<neck>Orochi Nodowa</neck>
 		</set>
 		
 		<!-- Treasure Hunter Toggle -->
 		<!--Toggle: /th -->
 		<set name="TH">
 			<hands>Assassin's Armlets</hands>
-		</set>	
+		</set>
+		
+		<set name="RR">
+            <head>Reraise Hairpin</head>
+		</set>
 	</sets>
 	
 	<init>
@@ -285,6 +296,7 @@
 		<var name="FireBomb">false</var>
 		<var name="Regen">false</var>
 		<var name="Strider">false</var>
+		<var name="RR">false</var>
 	</variables>
 
 	<inputcommands>
@@ -407,11 +419,11 @@
 		<cmd input="/str">
 			<if advanced="$Strider=false">
 				<setvar name="Strider" value="true" />
-					<addtochat color="57">Strider Boots: On.</addtochat>
+					<addtochat color="57">Strider Boots: On</addtochat>
 			</if>
 			<else> 
 				<setvar name="Strider" value="false" />
-					<addtochat color="57">Strider Boots: Off.</addtochat>
+					<addtochat color="57">Strider Boots: Off</addtochat>
 			</else> 
 		</cmd>
 		
@@ -419,11 +431,11 @@
 		<cmd input="/regen">
 			<if advanced="$Regen=false">
 				<setvar name="Regen" value="true" />
-					<addtochat color="57">Regen: On.</addtochat>
+					<addtochat color="57">Regen: On</addtochat>
 			</if>
 			<else> 
 				<setvar name="Regen" value="false" />
-					<addtochat color="57">Regen: Off.</addtochat>
+					<addtochat color="57">Regen: Off</addtochat>
 			</else> 
 		</cmd>
 		
@@ -431,12 +443,23 @@
 		<cmd input="/TH">
 			<if advanced="$TH=NoTH">
 				<setvar name="TH" value="FullTH" />
-				<addtochat color="57">TH: Locked</addtochat>
+				<addtochat color="57">TH4: On</addtochat>
 			</if>
 			<elseif advanced="$TH=FullTH">
 				<setvar name="TH" value="NoTH" />
-				<addtochat color="57">TH: Off</addtochat>
+				<addtochat color="57">TH4: Off</addtochat>
 			</elseif>
+		</cmd>
+		
+		<cmd input="/RR">
+			<if advanced="$RR=false">
+				<setvar name="RR" value="true" />
+					<addtochat color="57">RR: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="RR" value="false" />
+					<addtochat color="57">RR: Off</addtochat>
+			</else> 
 		</cmd>
 	</inputcommands>
 
@@ -451,7 +474,17 @@
 				</elseif>
 				<elseif advanced="$Bolt=Bloody">
 					<equip set="Bloody"  />
-				</elseif>		
+				</elseif>
+				<if e_time=">6.00|<18.00">
+					<equip>
+						<hands>Garden Bangles</hands>
+					</equip>
+				</if>
+				<if buffactive="2|19|106">
+					<equip>
+						<neck>Opo-opo Necklace</neck>
+					</equip>
+				</if>
 				<if advanced="$TH=FullTH"> 
 					<equip>
 						<hands>Assassin's Armlets</hands>
@@ -478,7 +511,12 @@
 				</elseif>
 				<elseif advanced="$Bolt=Bloody">
 					<equip set="Bloody"  />
-				</elseif>	
+				</elseif>
+				<if buffactive="2|19|106">
+					<equip>
+						<neck>Opo-opo Necklace</neck>
+					</equip>
+				</if>
 				<if advanced="$TH=FullTH"> 
 					<equip>
 						<hands>Assassin's Armlets</hands>
@@ -570,6 +608,9 @@
         </if>
         <if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
             <equip set="Town"  />
+        </if>
+		<if advanced="$RR=true"> 
+            <equip set="RR" lock="true" />
         </if>
 	</idlegear>
 

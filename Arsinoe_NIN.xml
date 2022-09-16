@@ -32,9 +32,9 @@
 			<body>Scp. Harness +1</body>
 			<hands>Dusk Gloves</hands>
 			<legs>Byakko's Haidate</legs>
-			<feet>Fuma Kyahan</feet>
+			<feet>Fuma Sune-Ate</feet>
 			<neck>Hope Torque</neck>
-			<waist>Swift Belt</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Merman's Earring</ear1>
 			<ear2>Brutal Earring</ear2>
 			<ring1>Toreador's Ring</ring1>
@@ -50,7 +50,7 @@
 			<legs>Byakko's Haidate</legs>
 			<feet>Dusk Ledelsens</feet>
 			<neck>Hope Torque</neck>
-			<waist>Swift Belt</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Merman's Earring</ear1>
 			<ear2>Brutal Earring</ear2>
 			<ring1>Toreador's Ring</ring1>
@@ -62,7 +62,7 @@
 		
 		<!-- WS Set - Normal Accuracy -->
 	    <set name="WS">
-			<head>Voyager Sallet</head>
+			<head>Maat's Cap</head>
 			<body>Kirin's Osode</body>
 			<hands>Nin. Tekko +1</hands>
 			<legs>Byakko's Haidate</legs>
@@ -78,7 +78,7 @@
 		
 		<!-- WS Set - High Accuracy -->
 		<set name="WSAcc">
-			<head>Voyager Sallet</head>
+			<head>Maat's Cap</head>
 			<body>Haubergeon +1</body>
 			<hands>Nin. Tekko +1</hands>
 			<legs>Byakko's Haidate</legs>
@@ -129,19 +129,19 @@
 		</set>
 		
 		<set name="Ninjutsu">
-			<head>Ninja Hatsuburi</head>
+			<head>Maat's Cap</head>
             <hands>Dusk Gloves</hands>
 			<legs>Byakko's Haidate</legs>
             <feet>Koga Kyahan</feet>
-            <waist>Swift Belt</waist>
+            <waist>Speed Belt</waist>
 		</set>
 		
 		<set name="Haste">
             <head>Walahra Turban</head>
             <hands>Dusk Gloves</hands>
 			<legs>Byakko's Haidate</legs>
-            <feet>Fuma Kyahan</feet>
-            <waist>Swift Belt</waist>
+            <feet>Fuma Sune-Ate</feet>
+            <waist>Speed Belt</waist>
         </set>
 		
 		<!-- Enmity Set - Stack Enmity -->
@@ -163,7 +163,7 @@
 			<legs>Dst. Subligar +1</legs>
 			<feet>Dance Shoes</feet>
 			<neck>Evasion Torque</neck>
-			<waist>Scouter's Rope</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Ethereal Earring</ear1>
 			<ear2>Dodge Earring</ear2>
 			<ring1>Jelly Ring</ring1>
@@ -181,13 +181,13 @@
 			<legs>Byakko's Haidate</legs>
 			<feet>Dance Shoes</feet>
 			<neck>Evasion Torque</neck>
-			<waist>Scouter's Rope</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Merman's Earring</ear1>
 			<ear2>Merman's Earring</ear2>
 			<ring1>Merman's Ring</ring1>
 			<ring2>Merman's Ring</ring2>
 			<back>Lamaia Mantle +1</back>
-			<range>Lamian Kaman</range>
+			<range>Ungur Boomerang</range>
 		</set>
 		
 		<!--Evasion Set - Stack Evasion -->
@@ -217,6 +217,7 @@
 		
 		<set name="Resting">
 			<body>Pln. Khazagand</body>
+			<neck>Orochi Nodowa</neck>
 		</set>
 		
     	<set name="Kite">
@@ -249,74 +250,74 @@
 	<inputcommands>
 	    <cmd input="/pdt">
 			<if advanced="$PDT=false">
-			<setvar name="PDT" value="true" />
-			<setvar name="MDT" value="false" />
-			<setvar name="EVA" value="false" />
-			<setvar name="DPS" value="false" />
-				<addtochat color="57">PDT: On</addtochat>
+				<setvar name="PDT" value="true" />
+				<setvar name="MDT" value="false" />
+				<setvar name="EVA" value="false" />
+				<setvar name="DPS" value="false" />
+					<addtochat color="57">PDT: On</addtochat>
 			</if>
 			<else> 
-			<setvar name="PDT" value="false" />
-				<addtochat color="57">PDT: Off</addtochat>
+				<setvar name="PDT" value="false" />
+					<addtochat color="57">PDT: Off</addtochat>
 			</else> 
 		</cmd>
 		<cmd input="/mdt">
 			<if advanced="$MDT=false">
-			<setvar name="MDT" value="true" />
-			<setvar name="PDT" value="false" />
-			<setvar name="EVA" value="false" />
-			<setvar name="DPS" value="false" />
-				<addtochat color="57">MDT: On</addtochat>
+				<setvar name="MDT" value="true" />
+				<setvar name="PDT" value="false" />
+				<setvar name="EVA" value="false" />
+				<setvar name="DPS" value="false" />
+					<addtochat color="57">MDT: On</addtochat>
 			</if>
 			<else> 
-			<setvar name="MDT" value="false" />
-				<addtochat color="57">MDT: Off</addtochat>
+				<setvar name="MDT" value="false" />
+					<addtochat color="57">MDT: Off</addtochat>
 			</else> 
 		</cmd>
 		<cmd input="/kite">
 			<if advanced="$Kite=false">
-			<setvar name="Kite" value="true" />
-				<addtochat color="57">Kiting On.</addtochat>
+				<setvar name="Kite" value="true" />
+					<addtochat color="57">Kiting On.</addtochat>
 			</if>
 			<else>
-			<setvar name="Kite" value="false" />
-				<addtochat color="57">Kiting Off.</addtochat>
+				<setvar name="Kite" value="false" />
+					<addtochat color="57">Kiting Off.</addtochat>
 			</else>
 		</cmd>
 		<cmd input="/eva">
 			<if advanced="$EVA=false">
-			<setvar name="EVA" value="true" />
-			<setvar name="MDT" value="false" />	   
-			<setvar name="PDT" value="false" />
-			<setvar name="DPS" value="false" />
-				<addtochat color="57">EVA On.</addtochat>
+				<setvar name="EVA" value="true" />
+				<setvar name="MDT" value="false" />	   
+				<setvar name="PDT" value="false" />
+				<setvar name="DPS" value="false" />
+					<addtochat color="57">EVA On.</addtochat>
 			</if>
 			<else>
-			<setvar name="EVA" value="false" />
-				<addtochat color="57">EVA Off.</addtochat>
+				<setvar name="EVA" value="false" />
+					<addtochat color="57">EVA Off.</addtochat>
 			</else>
 		</cmd> 
 		<cmd input="/dps">
 			<if advanced="$DPS=false">
-			<setvar name="DPS" value="true" />
-			<setvar name="MDT" value="false" />
-			<setvar name="PDT" value="false" />
-			<setvar name="EVA" value="false" />
-				<addtochat color="57">DPS On.</addtochat>
+				<setvar name="DPS" value="true" />
+				<setvar name="MDT" value="false" />
+				<setvar name="PDT" value="false" />
+				<setvar name="EVA" value="false" />
+					<addtochat color="57">DPS On.</addtochat>
 			</if>
 			<else> 
-			<setvar name="DPS" value="false" />
-				<addtochat color="57">DPS Off.</addtochat>
+				<setvar name="DPS" value="false" />
+					<addtochat color="57">DPS Off.</addtochat>
 			</else> 
 		</cmd>
 		<cmd input="/cooking">
 			<if advanced="$Cooking=false">
-			<setvar name="Cooking" value="true" />
-				<addtochat color="57">Cooking On.</addtochat>
+				<setvar name="Cooking" value="true" />
+					<addtochat color="57">Cooking On.</addtochat>
 			</if>
 			<else> 
-			<setvar name="Cooking" value="false" />
-				<addtochat color="57">Cooking Off.</addtochat>
+				<setvar name="Cooking" value="false" />
+					<addtochat color="57">Cooking Off.</addtochat>
 			</else> 
 		</cmd>
 	</inputcommands>

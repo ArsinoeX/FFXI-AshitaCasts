@@ -16,7 +16,7 @@
             <legs>Pln. Seraweels</legs>
         	<feet>Pup. Babouches +1</feet>
             <neck>Peacock Charm</neck>
-			<back>Boxer's Mantle</back>
+			<back>Pantin Cape</back>
             <waist>Swift Belt</waist> 
             <ear1>Merman's Earring</ear1> 
 			<ear2>Brutal Earring</ear2> 
@@ -28,10 +28,10 @@
             <head>Walahra Turban</head>
 			<body>Pln. Khazagand</body>
            	<hands>Pantin Dastanas</hands>
-            <legs>Crow Hose</legs>
+            <legs>Pln. Seraweels</legs>
             <feet>Pup. Babouches +1</feet>
             <neck>Peacock Charm</neck>
-			<back>Boxer's Mantle</back>
+			<back>Pantin Cape</back>
             <waist>Swift Belt</waist>
 			<ear1>Merman's Earring</ear1> 
 			<ear2>Brutal Earring</ear2> 		
@@ -46,7 +46,7 @@
             <legs>Pln. Seraweels</legs>
             <feet>Pup. Babouches +1</feet>
             <neck>Spike Necklace</neck>
-			<back>Bellicose Mantle</back>
+			<back>Pantin Cape</back>
             <waist>Potent Belt</waist>
 			<ear1>Merman's Earring</ear1> 
 			<ear2>Brutal Earring</ear2>
@@ -61,7 +61,7 @@
             <legs>Pantin Churidars</legs>
             <feet>Pup. Babouches +1</feet>
             <neck>Soil Gorget</neck>
-			<back>Bellicose Mantle</back>
+			<back>Pantin Cape</back>
             <waist>Potent Belt</waist>
 			<ear1>Diabolos's Earring</ear1> 
 			<ear2>Brutal Earring</ear2>
@@ -79,7 +79,7 @@
             <feet>Pup. Babouches +1</feet>
             <neck>Evasion Torque</neck>
 			<back>Boxer's Mantle</back>
-            <waist>Potent Belt</waist>
+            <waist>Swift Belt</waist>
 			<ear1>Ethereal Earring</ear1> 
 			<ear2>Dodge Earring</ear2>
 			<ring1>Rajas Ring</ring1> 
@@ -105,7 +105,7 @@
 		
         <set name="AGI">
 			<main>Wind Staff</main>
-			<head>Emperor Hairpin</head>
+			<head>Maat's Cap</head>
 			<body>Mrc.Cpt. Doublet</body>
            	<hands>Pup. Dastanas +1</hands>
             <legs></legs>
@@ -121,13 +121,13 @@
 		
         <set name="DEX">
 			<main>Thunder Staff</main>
-			<head>Voyager Sallet</head>
+			<head>Maat's Cap</head>
 			<body>Mrc.Cpt. Doublet</body>
            	<hands>Pup. Dastanas +1</hands>
             <legs></legs>
             <feet>Marine F Boots</feet>
             <neck>Spike Necklace</neck>
-			<back></back>
+			<back>Pantin Cape</back>
             <waist></waist>
 			<ear1>Intruder Earring</ear1> 
 			<ear2>Minuet Earring</ear2>
@@ -137,7 +137,7 @@
 		
         <set name="VIT">
 			<main>Earth Staff</main>
-			<head>Opo-opo Crown</head>
+			<head>Maat's Cap</head>
 			<body>Custom Vest</body>
            	<hands>Pup. Dastanas +1</hands>
             <legs>Pantin Churidars</legs>
@@ -153,7 +153,7 @@
 		
         <set name="CHR">
 			<main>Apollo's Staff</main>
-			<head>Noble's Ribbon</head>
+			<head>Maat's Cap</head>
 			<body></body>
            	<hands>Pup. Dastanas +1</hands>
             <legs>Custom Pants</legs>
@@ -169,7 +169,7 @@
 		
         <set name="INT">
 			<main>Aquilo's Staff</main>
-			<head>Opo-opo Crown</head>
+			<head>Maat's Cap</head>
 			<body></body>
            	<hands>Pup. Dastanas +1</hands>
             <legs></legs>
@@ -185,7 +185,7 @@
 		
         <set name="MND">
 			<main>Water Staff</main>
-			<head>Opo-opo Crown</head>
+			<head>Maat's Cap</head>
 			<body></body>
            	<hands>Pup. Dastanas +1</hands>
             <legs>Custom Pants</legs>
@@ -236,6 +236,7 @@
 		<!-- Toggle: /regen -->
 		<set name="Regen">
             <head>Pantin Taj</head>
+			<hands>Garden Bangles</hands>
         </set>
 		
 		<!-- Level Sync Sets -->

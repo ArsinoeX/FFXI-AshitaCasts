@@ -7,21 +7,21 @@
 	</settings>
 	<sets>
 		<set name="Idle">
-			<main>Macuahuitl +1</main>
-			<!--main>Joyeuse</main-->
+			<!--main>Macuahuitl +1</main-->
+			<main>Joyeuse</main>
 			<sub>Koenig Shield</sub>
-			<head>Valor Coronet</head>
+			<head>Maat's Cap</head>
 			<body>Homam Corazza</body>
 			<body>Valor Surcoat</body>
 			<hands>Homam Manopolas</hands>
 			<legs>Homam Cosciales</legs>
 			<feet>Glt. Leggings +1</feet>
 			<neck>Shield Torque</neck>
-			<waist>Warwolf Belt</waist>
+			<waist>Speed Belt</waist>
 			<ear1>Ethereal Earring</ear1>
 			<ear2>Loquac. Earring</ear2>
 			<ring1>Jelly Ring</ring1>
-			<ring2>Bomb Queen Ring</ring2>
+			<ring2>Bloodbead Ring</ring2>
 			<back>Valor Cape</back>
 		    <range>displaced</range>
 			<ammo>Fenrir's Stone</ammo>
@@ -30,14 +30,14 @@
 		<!--Show off how fancy you look!-->
 		<set name="Town" baseset="Idle">
 			<main>Joyeuse</main>
-			<head>Opo-opo Crown</head>
+			<!--head>Opo-opo Crown</head-->
 		</set>
 		
 		<!--Default TP Set-->
 		<!--Toggle: /set Base-->
 		<set name="TP-Base">
 			<head>Walahra Turban</head>
-			<body>Valor Surcoat</body>
+			<body>Dst. Harness +1</body>
 			<hands>Homam Manopolas</hands>
 			<legs>Homam Cosciales</legs>
 			<feet>Homam Gambieras</feet>
@@ -148,7 +148,7 @@
 		<set name="Enmity">
 			<head>Valor Coronet</head>
 			<body>Valor Surcoat</body>
-			<hands>Askar Manopolas</hands>
+			<hands>Vlr. Gauntlets +1	</hands>
 			<legs>Valor Breeches</legs>
 			<feet>Askar Gambieras</feet>
 			<neck>Harmonia's Torque</neck>
@@ -176,13 +176,13 @@
 			<ammo>Bibiki Seashell</ammo>
 		</set>
 		
-		<!--PDT Set - Stack Physical Defense -->
-		<!--Toggle: /pdt-->
+		<!-- PDT Set - Stack Physical Defense -->
+		<!-- Toggle: /pdt -->
 		<set name="PDT">
 			<sub>Koenig Shield</sub>
-			<head>Koenig Schaller</head>
-			<body>Valor Surcoat</body>
-			<hands>Valor Gauntlets</hands>
+			<head>Darksteel Cap +1</head>
+			<body>Dst. Harness +1</body>
+			<hands>Vlr. Gauntlets +1</hands>
 			<legs>Blood Cuisses</legs>
 			<feet>Askar Gambieras</feet>
 			<neck>Parade Gorget</neck>
@@ -261,7 +261,7 @@
 			<hands>Homam Manopolas</hands>
 			<legs>Homam Cosciales</legs>
 			<feet>Homam Gambieras</feet>
-			<waist>Swift Belt</waist>
+			<waist>Speed Belt</waist>
 		</set>
 		
 		<set name="Resting">
@@ -285,8 +285,8 @@
 		
 		<!-- Toggle: /earth -->
 		<set name="EarthStaff">
-			<main>Earth Staff</main>
-			<sub>displaced</sub>
+			<main>Terra's Staff</main>
+			<sub>Axe Grip</sub>
 		</set>
 		
 		<!-- Toggle: /vermy -->
@@ -294,7 +294,13 @@
 			<head>displaced</head>
 			<body>Vermillion Cloak</body>
 		</set>
+		
+		<!-- Toggle: /berk -->
+		<set name="BTorque">
+			<neck>Berserker's Torque</neck>
+		</set>
 
+		<!-- Toggle: /rr -->
 		<set name="RR">
 			<head>Reraise Hairpin</head>
 			<neck>Reraise Gorget</neck>
@@ -306,8 +312,8 @@
 	<init>
 		<command>/macro book 6</command>
 			<if p_subjob="WAR"><command delay="500">/macro set 1</command></if>	
-			<if p_subjob="NIN"><command delay="500">/macro set 2</command></if>	
-			<if p_subjob="SAM"><command delay="500">/macro set 3</command></if>	
+			<if p_subjob="NIN"><command delay="500">/macro set 3</command></if>	
+			<if p_subjob="BLU"><command delay="500">/macro set 5</command></if>	
     </init>
 	
 	<variables>
@@ -319,8 +325,9 @@
 		<var name="Kite">false</var>
 	    <var name="DPS">false</var>
 		<var name="FastPants">false</var>
-		<var name="Vermy">false</var>
 		<var name="EarthStaff">false</var>
+		<var name="Vermy">false</var>
+		<var name="BTorque">false</var>
 		<var name="RR">false</var>
 	</variables>
 	
@@ -365,11 +372,11 @@
 		<cmd input="/earth">
 			<if advanced="$EarthStaff=false">
 				<setvar name="EarthStaff" value="true" />
-				<addtochat color="57">Earth Staff: On</addtochat>
+				<addtochat color="57">Terra's Staff: On</addtochat>
 			</if>
 			<else> 
 				<setvar name="EarthStaff" value="false" />
-				<addtochat color="57">Earth Staff: Off</addtochat>
+				<addtochat color="57">Terra's Staff: Off</addtochat>
 			</else> 
 		</cmd>
 		<cmd input="/fastpants">
@@ -380,6 +387,16 @@
 			<else> 
 				<setvar name="FastPants" value="false" />
 				<addtochat color="57">Fast Pants: Off</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/berk">
+			<if advanced="$BTorque=false">
+				<setvar name="BTorque" value="true" />
+				<addtochat color="57">Berserker's Torque: On</addtochat>
+			</if>
+			<else> 
+				<setvar name="BTorque" value="false" />
+				<addtochat color="57">Berserker's Torque: Off</addtochat>
 			</else> 
 		</cmd>
 		<cmd input="/vermy">
@@ -440,7 +457,7 @@
 					<equip lock="true">
 						<ring2>Hercules' Ring</ring2>
 					</equip>
-				</if> 				
+				</if>
 				<if advanced="$set=DPS">
 						<if e_time=">6.00|<18.00">
 						<equip>
@@ -455,6 +472,9 @@
 						<range>%eq_range</range>
 						<ammo>%eq_ammo</ammo>
 					</equip>
+				</if>
+				<if advanced="$BTorque=true"> 
+					<equip set="BTorque" lock="true" />
 				</if>
 		</if>
 		<if p_status="resting">
@@ -521,7 +541,10 @@
 			<equip lock="true">
 				<ring2>Hercules' Ring</ring2>
 			</equip>
-		</if> 
+		</if>
+		<if advanced="$BTorque=true"> 
+			<equip set="BTorque" lock="true" />
+		</if>
 		<if eq_ring2="Tavnazian Ring">
             <equip lock="true">
                 <ring2>Tavnazian Ring</ring2>
@@ -582,7 +605,7 @@
 		</if>
 		<if ad_name="Shield Bash">
 			<equip>
-				<hands>Valor Gauntlets</hands>
+				<hands>Vlr. Gauntlets +1</hands>
 			</equip>
 	   </if>
 	   	<if ad_name="Sentinel">

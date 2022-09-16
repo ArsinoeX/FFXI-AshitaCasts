@@ -1,0 +1,387 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>True</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="idle">
+			<main>Terra's Staff</main>
+			<sub>Bugard Strap +1</sub>
+			<head>Sorcerer's Petas.</head>
+			<body>Sorcerer's Coat</body>
+			<hands>Sorcerer's Gloves</hands>
+			<legs>Sorcerer's Tonban</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Uggalepih Pendant</neck>
+			<waist>Hierarch belt</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Tamas Ring</ring1>
+			<ring2>Astral Ring</ring2>
+			<back>Cheviot Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+		<set name="Town" baseset="Idle">
+			<main>Pluto's Staff</main>
+			<head>Gala Corsage</head>
+			<ring2>Sorcerer's Ring</ring2>
+		</set>	
+		
+		<set name="precast">
+			<ear1>Loquac. Earring</ear1>
+			<feet>Rostrum Pumps</feet>
+		</set>
+		
+		<set name="dark">
+			<sub>Bugard Strap +1</sub>
+			<head>Demon Helm</head>
+			<body>Nashira Manteel</body>
+			<hands>Sorcerer's Gloves</hands>
+			<legs>Wizard's Tonban</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Dark Torque</neck>
+			<waist>Penitent's Rope</waist>
+			<ear1>Abyssal Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Tamas Ring</ring1>
+			<ring2>Snow Ring</ring2>
+			<back>Rainbow Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+		<set name="haste" baseset="dark">
+			<head>Walahra Turban</head>
+			<body>Nashira Manteel</body>
+			<waist>Swift Belt</waist>
+			<feet>Rostrum Pumps</feet>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+		</set>
+		
+		<set name="elemental">
+			<main>$%ad_elementStaff</main>
+			<sub>Bugard Strap +1</sub>
+			<head>Sorcerer's Petas.</head>
+			<body>Igqira Weskit</body>
+			<hands>Zenith Mitts</hands>
+			<legs>Errant Slops</legs>
+			<feet>Yigit Crackows</feet>
+			<neck>Elemental Torque</neck>
+			<waist>Penitent's Rope</waist>
+			<ear1>Moldavite Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Tamas Ring</ring1>
+			<ring2>Sorcerer's Ring</ring2>
+			<back>Rainbow Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+		<set name="INT" baseset="elemental">
+			<hands>Wzd. Gloves +1</hands>
+			<legs>Errant Slops</legs>
+			<ring2>Snow Ring</ring2>
+			<ear2>Abyssal Earring</ear2>
+		</set>
+		
+		<set name="enfeebling">
+			<sub>Bugard Strap +1</sub>
+			<head>Igqira Tiara</head>
+			<body>Wzd. Coat +1</body>
+			<hands>Yigit Gages</hands>
+			<legs>Igqira Lappas</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Enfeebling Torque</neck>
+			<waist>Penitent's Rope</waist>
+			<ear1>Abyssal Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Tamas Ring</ring1>
+			<ring2>Snow Ring</ring2>
+			<back>Rainbow Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+	    <set name="MND" baseset="enfeebling">
+			<sub>Raptor Strap +1</sub>
+			<head>Yigit Turban</head>
+			<body>Errant Hpl.</body>
+			<hands>Yigit Gages</hands>
+			<legs>Errant Slops</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Promise Badge</neck>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring2>Aqua Ring</ring2>
+			<back>Rainbow Cape</back>
+		</set>
+		
+		<set name="enhancing">
+			<main>Kirin's Pole</main>
+			<sub>Raptor Strap +1</sub>
+			<head>Yigit Turban</head>
+			<body>Errant Hpl.</body>
+			<hands>Yigit Gages</hands>
+			<legs>Errant Slops</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Promise Badge</neck>
+			<waist>Penitent's Rope</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Tamas Ring</ring1>
+			<ring2>Aqua Ring</ring2>
+			<back>Rainbow Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+		<set name="healing">
+			<main>Apollo's Staff</main>
+			<sub>Raptor Strap +1</sub>
+			<head>Yigit Turban</head>
+			<body>Errant Hpl.</body>
+			<hands>Yigit Gages</hands>
+			<legs>Errant Slops</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Promise Badge</neck>
+			<waist>Penitent's Rope</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Tamas Ring</ring1>
+			<ring2>Aqua Ring</ring2>
+			<back>Rainbow Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+		<set name="precastHP">
+			<main>displaced</main>
+			<sub>Tortoise Shield</sub>
+			<head>Zenith Crown</head>
+			<body>Wzd. Coat +1</body>
+			<hands>Zenith Mitts</hands>
+			<legs>Zenith Slacks</legs>
+			<feet>Rostrum Pumps</feet>
+			<neck>Star Necklace</neck>
+			<ear1>Loquac. Earring</ear1>
+			<ring1>Astral Ring</ring1>
+			<ring2>Astral Ring</ring2>
+			<back>Blue Cape +1</back>	
+		</set>
+		
+		<set name="resting">
+			<main>Pluto's Staff</main>
+			<head>Yigit Turban</head>
+			<body>Yigit Gomlek</body>
+			<hands>Yigit Gages</hands>
+			<legs>Yigit Seraweels</legs>
+			<feet>Yigit Crackows</feet>
+			<neck>Beak Necklace +1</neck>
+			<waist>Qiqirn Sash +1</waist>
+			<ear1>Relaxing Earring</ear1>
+			<ear2>Magnetic Earring</ear2>
+			<ring1>Astral Ring</ring1>
+			<ring2>Astral Ring</ring2>
+			<back>Invigorating Cape</back>
+			<ammo>Phtm. Tathlum</ammo>
+		</set>
+		
+		<set name="RR">
+            <head>Reraise Hairpin</head>
+			<body>Sorcerer's Coat</body>
+		</set>
+		<include>
+		</include>
+    </sets>
+	
+	<init>
+        <command>/macro book 3</command>
+        <if p_subjob="RDM"><command delay="500">/macro set 1</command></if>
+		<if p_subjob="WHM"><command delay="500">/macro set 3</command></if>
+		<if p_subjob="NIN"><command delay="500">/macro set 5</command></if>
+    </init>
+	
+	<variables>
+	    <var name="darkStaff">Pluto's Staff</var>
+		<var name="earthStaff">Terra's Staff</var>
+		<var name="fireStaff">Vulcan's Staff</var>
+        <var name="iceStaff">Aquilo's Staff</var>
+		<var name="lightStaff">Apollo's Staff</var>
+		<var name="thunderStaff">Jupiter's Staff</var>
+        <var name="waterStaff">Neptune's Staff</var>
+        <var name="windStaff">Auster's Staff</var>
+		<var name="DarkObi">Anrin Obi</var>
+		<var name="LightObi">Korin Obi</var>
+		<var name="FireObi">Karin Obi</var>
+		<var name="IceObi">Hyorin Obi</var>
+        <var name="ThunderObi">Rairin Obi</var>
+		<var name="int">false</var>
+		<var name="RR">false</var>
+	</variables>
+	
+	<inputcommands>
+        <cmd input="/int">
+			<if advanced="$int=false">
+				<setvar name="int" value="true" />
+					<addtochat color="57">INT Set: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="int" value="false" />
+					<addtochat color="57">INT Set: Off.</addtochat>
+			</else> 
+		</cmd>
+		<cmd input="/RR">
+			<if advanced="$RR=false">
+				<setvar name="RR" value="true" />
+					<addtochat color="57">RR: On.</addtochat>
+			</if>
+			<else> 
+				<setvar name="RR" value="false" />
+					<addtochat color="57">RR: Off.</addtochat>
+			</else> 
+		</cmd>
+	</inputcommands>
+	
+	<idlegear>
+        <if p_status="idle">
+            <equip set="Idle" />
+        </if>
+		<if e_weather="earth|earthx2">
+            <equip>
+                <feet>Desert Boots</feet>
+            </equip>
+        </if>
+		<if p_status="resting">
+			<equip set="resting" />
+				<if e_area="Leujaoam Sanctum|Lebros Cavern|Mamool Ja Training Grounds|Ilrusi Atoll|Periqia|Nyzul Isle">
+					<equip>
+						<back>Storm Cape</back>
+					</equip>
+				</if>
+		</if>
+		<if eq_ring2="Empress Band">
+            <equip lock="true">
+                <ring2>Empress Band</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Tavnazian Ring">
+            <equip lock="true">
+                <ring2>Tavnazian Ring</ring2>
+            </equip>
+        </if>
+		<if eq_ring2="Homing Ring">
+            <equip lock="true">
+                <ring2>Homing Ring</ring2>
+            </equip>
+        </if>
+		<if e_area="Ru'Lude Gardens|Upper Jeuno|Lower Jeuno|Port Jeuno|Aht Urhgan Whitegate|Al Zahbi|Nashmau|Mhaura|Selbina|Norg|Kazham|Rabao|">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port Bastok|Bastok Mines|Bastok Markets|Metalworks">
+			<equip set="Town">
+				<body>Republic Aketon</body>
+			</equip>
+        </if>
+		<if e_area="Port San d'Oria|Northern San d'Oria|Southern San d'Oria|Chateau d'Oraguille">
+			<equip set="Town" />
+        </if>
+		<if e_area="Port Windurst|Windurst Woods|Windurst Walls|Windurst Waters|Heavens Tower">
+			<equip set="Town"  />
+        </if>
+		<if advanced="$RR=true"> 
+            <equip set="RR" lock="true" />
+        </if>
+	</idlegear>
+	
+	<premagic>
+		<if ad_skill="ElementalMagic">
+			<equip set="precastHP" />
+		</if>
+		<else>
+			<equip set="precast" />
+		</else>
+	</premagic>
+	
+	<midmagic>
+		<equip>
+			<main>$%ad_elementStaff</main>
+		</equip>
+		<if ad_skill="DarkMagic">
+            <equip set="dark" />
+				<if ad_name="Drain|Aspir">
+					<if advanced="%ad_element=%e_dayelement">
+						<equip>
+							<waist>Anrin Obi</waist>
+						</equip>
+					</if>
+					<if advanced="%ad_element=%e_weatherelement">
+						<equip>
+							<main>Diabolos's Pole</main>
+							<waist>Anrin Obi</waist>
+						</equip>
+					</if>
+				</if>
+		</if>
+		<if ad_skill="EnfeeblingMagic">
+            <equip set="enfeebling" />
+				<if advanced="$int=true"> 
+					<equip set="INT" />   
+				</if>
+				<if ad_name="Silence|Paralyze|Slow">
+					<equip set="MND" />
+				</if>
+		</if>
+		<if ad_skill="ElementalMagic">
+			<equip set="elemental" />
+				<if advanced="$int=true"> 
+					<equip set="INT" />   
+				</if>
+				<if advanced="%p_mpp=<60">
+					<equip>
+						<neck>Uggalepih Pendant</neck>
+					</equip>
+				</if>
+				<if advanced="%p_hpp=<74">
+					<equip>
+						<ring1>Sorcerer's Ring</ring1>
+					</equip>
+				</if>
+				<if advanced="%ad_element=%e_dayelement">
+					<equip>
+						<legs>Sorcerer's Tonban</legs>
+						<waist>$%ad_elementObi</waist>
+					</equip>
+				</if>
+				<if advanced="%ad_element=%e_weatherelement">
+					<equip>
+						<waist>$%ad_elementObi</waist>
+					</equip>
+				</if>
+		</if>
+		<if ad_skill="EnhancingMagic"> 
+			<equip set="enhancing"/>
+				<if ad_name="Stoneskin">
+					<equip>
+						<main>Kirin's Pole</main>
+					</equip>
+				</if>
+		</if>
+		<if ad_skill="healingmagic">  
+			<equip set="healing"/>
+		</if>
+		<if ad_name="Raise*|Reraise*|*na|Erase|Regen|Stun|Dispel|Tractor|Escape|Warp*|Phalanx|Blink|Aquaveil|Protect*|Shell*|Teleport*|Sneak|Invisible">
+			<equip set="Haste" />
+		</if>
+		<if ad_name="Sneak|Invisible">
+			<equip>
+				<main>Auster's Staff</main>
+				<back>Skulker's Cape</back>
+			</equip>
+		</if>
+	</midmagic>
+	
+	<jobability>
+	</jobability>
+	
+	<weaponskill>
+	</weaponskill>
+</ashitacast>

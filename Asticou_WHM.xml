@@ -42,9 +42,9 @@
 			<hands>Clr. Mitts +1</hands>
 			<legs>Errant Slops</legs>
 			<feet>Hlr. Duckbills +1</feet>
-			<neck>Mohbwa Scarf</neck>
+			<neck>Enfeebling Torque</neck>
 			<waist>Penitent's Rope</waist>
-			<ear1>Morion Earring</ear1>
+			<ear1>Abyssal Earring</ear1>
 			<ear2>Magnetic Earring</ear2>
 			<ring1>Tamas Ring</ring1>
 			<ring2>Snow Ring</ring2>
@@ -59,7 +59,7 @@
 			<hands>Blessed Mitts</hands>
 			<legs>Blessed Trousers</legs>
 			<feet>Cleric's Duckbills</feet>
-			<neck>Promise Badge</neck>
+			<neck>Enfeebling Torque</neck>
 			<ring1>Tamas Ring</ring1>
 			<ring2>Aqua Ring</ring2>
 			<back>Rainbow Cape</back>
@@ -96,11 +96,11 @@
 			<feet>Cleric's Duckbills</feet>
 			<neck>Promise Badge</neck>
 			<waist>Penitent's Rope</waist>
-			<ear1>Morion Earring</ear1>
+			<ear1>Geist Earring</ear1>
 			<ear2>Magnetic Earring</ear2>
 			<ring1>Tamas Ring</ring1>
 			<ring2>Aqua Ring</ring2>
-			<back>Red Cape +1</back>
+			<back>Rainbow Cape</back>
 			<ammo>Hedgehog Bomb</ammo>
 		</set>
 		
@@ -114,7 +114,7 @@
             <feet>Rostrum Pumps</feet>
             <neck>Promise Badge</neck>
             <waist>Penitent's Rope</waist>
-            <ear1>Morion Earring</ear1>
+            <ear1>Geist Earring</ear1>
             <ear2>Magnetic Earring</ear2>
             <ring1>Tamas Ring</ring1>
             <ring2>Aqua Ring</ring2>
@@ -132,11 +132,11 @@
 			<feet>Cure Clogs</feet>
 			<neck>Promise Badge</neck>
 			<waist>Penitent's Rope</waist>
-			<ear1>Morion Earring</ear1>
+			<ear1>Geist Earring</ear1>
 			<ear2>Magnetic Earring</ear2>
 			<ring1>Tamas Ring</ring1>
 			<ring2>Aqua Ring</ring2>
-			<back>Red Cape +1</back>
+			<back>Rainbow Cape</back>
 			<ammo>Hedgehog Bomb</ammo>
 		</set>
 		
